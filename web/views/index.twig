@@ -1,0 +1,22 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<div>
+{% for news in view.news %}
+    <article>
+        <header>
+            <h1>{{ news.title }}</h1>
+            <p>
+                <time datetime="{{ news.date|date("Y-m-d") }}" pubdate data-updated="true">{{ news.date|date("Y-m-d") }}</time>
+            </p>
+        </header>
+
+        <div>
+            {% markdown %}
+                {{ news.content|raw }}
+            {% endmarkdown %}
+        </div>
+    </article>
+{% endfor %}
+</div>
+{% endblock %}

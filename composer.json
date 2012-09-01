@@ -1,0 +1,31 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "michelf/php-markdown",
+                "version": "1.0",
+                "dist": {
+                    "url": "https://github.com/michelf/php-markdown/zipball/extra",
+                    "type": "zip"
+                },
+                "autoload": {
+                    "files": [
+                        "markdown.php"
+                    ]
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "silex/silex": "1.0.*",
+        "twig/twig": "1.*",
+        "michelf/php-markdown": "1.*",
+        "symfony/yaml": "2.1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {"Cuttle": "lib/"}
+    }
+}

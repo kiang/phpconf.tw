@@ -1,0 +1,8 @@
+.idea
+vendor
+composer.lock
+composer.phar
+web/.deploy
+web/.sass-cache
+web/public/2012/*.html
+web/public/2012/stylesheets/style.css

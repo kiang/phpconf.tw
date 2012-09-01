@@ -1,0 +1,118 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<style type="text/css">
+    #schedule_wrapper {
+        width: 600px;
+    }
+
+    .schedule_raw, .schedule_raw_first {
+        border: 1px solid red;
+        float: left;
+    }
+    .schedule_raw {
+        border-width: 0 1px 1px 1px;
+    }
+    .schedule_raw_first {
+        font-weight: bold;
+    }
+
+    .schedule_time {
+        float: left;
+        width: 119px;
+    }
+
+    .schedule_desc {
+        border-left: 1px solid red;
+        float: left;
+        width: 478px;
+    }
+
+    .schedule_break {
+        text-align: center;
+        width: 598px;
+    }
+</style>
+<div>
+    <section id="schedule_wrapper">
+        <h1>議程介紹</h1>
+
+        <div class="schedule_raw_first">
+            <div class="schedule_time">時間</div>
+            <div class="schedule_desc">議程內容</div>
+        </div>
+        
+        <div class="schedule_raw">
+            <div class="schedule_time"><small>9:00 &ndash; 9:30</small></div>
+            <div class="schedule_desc"><h4>報到</h4></div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_time"><small>9:30 &ndash; 9:40</small></div>
+            <div class="schedule_desc"><h4>開場</h4></div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_time"><small>9:40 &ndash; 9:50</small></div>
+            <div class="schedule_desc">
+                <h4><a href="#" title="4money 簡介">4money 簡介</a></h4>
+                <h6>林錦賜 / pct</h6>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_time"><small>9:40 &ndash; 9:50</small></div>
+            <div class="schedule_desc">
+                <h4><a href="#" title="CSS/SASS/Compass">CSS/SASS/Compass</a></h4>
+                <h6>陳世偉 (Cain Chen) / hinablue</h6>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_time"><small>9:40 &ndash; 9:50</small></div>
+            <div class="schedule_desc">
+                <h4><a href="#" title="CoffeeScript">CoffeeScript</a></h4>
+                <h6>高見龍 /eddie</h6>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_break">
+                <em>
+                    <small>10:40 &mdash; 10:50</small>
+                    休息時間
+                </em>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_break schedule_lunch">
+                <em>
+                    <small>10:40 &mdash; 10:50</small>
+                    午餐時間
+                </em>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_break">
+                <em>
+                    <small>10:40 &mdash; 10:50</small>
+                    休息時間
+                </em>
+            </div>
+        </div>
+
+        <div class="schedule_raw">
+            <div class="schedule_break happy_hour">
+                <em>
+                    <small>10:40 &mdash; 10:50</small>
+                    會後交流
+                </em>
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+    </section>
+</div>
+{% endblock %}
