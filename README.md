@@ -10,11 +10,12 @@
 
     php web/generate.php
 
-##Preview Pages With PHP Built-in Web Server (Require PHP 5.4+)
+##Preview Pages With PHP Built-in Web Server
 
     php web/preview.php
 
-View the web site at <http://127.0.0.1:10000>
+View the web site at <http://127.0.0.1:10000>  
+This feature require PHP 5.4+.
 
 ##Delopy pages (didn't implement Git operation yet)
 
