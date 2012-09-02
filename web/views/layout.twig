@@ -13,8 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Peralta' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Irish+Grover:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lemon:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 
     <link href="stylesheets/style.css?{{ "now"|date("YmdHms") }}" media="screen, projection" rel="stylesheet" type="text/css">
     {% block stylesheets %}
@@ -27,35 +29,39 @@
 
 <body>
 
-<header role="banner">
-    <hgroup>
-        <h1 id="title"><a href="./">PHP Conference in Taiwan 2012</a></h1>
-        <h2 id="subtitle">Innovation and Application for the Future</h2>
-    </hgroup>
-</header>
+<div id="body-container">
+    <header role="banner" id="header">
+        <hgroup>
+            <h1 id="title"><a href="./">PHPConf Taiwan 2012</a></h1>
+            <h2 id="subtitle">Innovation and Application for the Future</h2>
+        </hgroup>
 
-<nav role="navigation">
-    <ul class="main-navigation">
-        <li><a href="./">News</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="speakers.html">Speaker</a></li>
-        <li><a href="venue.html">Venue</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
+        <nav role="navigation" id="navigation">
+            <ul class="main-navigation">
+                <li{% if view.pageName == "index.html" %} class="active"{% endif %}><a href="./">News</a></li>
+                <li{% if view.pageName == "schedule.html" %} class="active"{% endif %}><a href="schedule.html">Schedule</a></li>
+                <li{% if view.pageName == "speakers.html" %} class="active"{% endif %}><a href="speakers.html">Speaker</a></li>
+                <li{% if view.pageName == "venue.html" %} class="active"{% endif %}><a href="venue.html">Venue</a></li>
+                <li{% if view.pageName == "about.html" %} class="active"{% endif %}><a href="about.html">About</a></li>
+            </ul>
+            <div class="clr"></div>
+        </nav>
+    </header>
 
-<div id="main">
-    <div id="content">
-        {% block content %}
-            Content of the page...
-        {% endblock %}
+    <div id="main">
+        <div id="content">
+            {% block content %}
+                Content of the page...
+            {% endblock %}
+        </div>
     </div>
-</div>
 
-<div id="sponsor">
-</div>
+    <div id="sponsor">
+        Sponsor Block
+    </div>
 
-<div id="footer">
+    <div id="footer">
+    </div>
 </div>
 
 </body>
