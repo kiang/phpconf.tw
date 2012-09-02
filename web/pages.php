@@ -3,7 +3,6 @@
 /** @var \Silex\Application $app */
 
 $view = array(
-    'root_url' => 'http://localhost:10000',
     'google_analytics_id' => 'UA-34341254-1',
 );
 
@@ -52,11 +51,11 @@ $pages[] = array(
 );
 
 $pages[] = array(
-    'route' => '/schedule',
-    'pageName' => 'schedule.html',
+    'route' => '/schedules',
+    'pageName' => 'schedules.html',
     'callback' => function() use ($app, $view) {
-        $view['pageName'] = 'schedule.html';
-        return $app['twig']->render('schedule.twig', array('view' => $view));
+        $view['pageName'] = 'schedules.html';
+        return $app['twig']->render('schedules.twig', array('view' => $view));
     },
 );
 
@@ -70,11 +69,11 @@ $pages[] = array(
 );
 
 $pages[] = array(
-    'route' => '/venue',
-    'pageName' => 'venue.html',
+    'route' => '/location',
+    'pageName' => 'location.html',
     'callback' => function() use ($app, $view) {
-        $view['pageName'] = 'venue.html';
-        return $app['twig']->render('venue.twig', array('view' => $view));
+        $view['pageName'] = 'location.html';
+        return $app['twig']->render('location.twig', array('view' => $view));
     },
 );
 
