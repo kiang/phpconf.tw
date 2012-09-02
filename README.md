@@ -8,17 +8,20 @@
 
 ##Generate Static Files
 
-    php web/generate.php
+    cd phpconf.tw/web
+    php generate.php
 
 ##Preview Pages With PHP Built-in Web Server
 
-    php web/preview.php
+    cd phpconf.tw/web
+    php preview.php
 
 View the web site at <http://127.0.0.1:10000>  
 This feature require PHP 5.4+.
 
 ##Delopy pages (didn't implement Git operation yet)
 
-    php web/deploy.php
+    cd phpconf.tw/web
+    php deploy.php
 
 After deployment, use git or rsync to upload the static files.
