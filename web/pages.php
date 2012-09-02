@@ -11,7 +11,7 @@ $pages = array();
 
 $pages[] = array(
     'route' => '/',
-    'file' => __DIR__.'/public/2012/index.html',
+    'pageName' => 'index.html',
     'callback' => function() use ($app, $view) {
         $newsViewPath = $app['twig.path'] . '/news';
         $newsViews = array(
@@ -45,6 +45,7 @@ $pages[] = array(
         });
 
         $view['news'] = $news;
+        $view['pageName'] = 'index.html';
 
         return $app['twig']->render('index.twig', array('view' => $view));
     },
@@ -52,32 +53,36 @@ $pages[] = array(
 
 $pages[] = array(
     'route' => '/schedule',
-    'file' => __DIR__.'/public/2012/schedule.html',
+    'pageName' => 'schedule.html',
     'callback' => function() use ($app, $view) {
+        $view['pageName'] = 'schedule.html';
         return $app['twig']->render('schedule.twig', array('view' => $view));
     },
 );
 
 $pages[] = array(
     'route' => '/speakers',
-    'file' => __DIR__.'/public/2012/speakers.html',
+    'pageName' => 'speakers.html',
     'callback' => function() use ($app, $view) {
+        $view['pageName'] = 'speakers.html';
         return $app['twig']->render('speakers.twig', array('view' => $view));
     },
 );
 
 $pages[] = array(
     'route' => '/venue',
-    'file' => __DIR__.'/public/2012/venue.html',
+    'pageName' => 'venue.html',
     'callback' => function() use ($app, $view) {
+        $view['pageName'] = 'venue.html';
         return $app['twig']->render('venue.twig', array('view' => $view));
     },
 );
 
 $pages[] = array(
     'route' => '/about',
-    'file' => __DIR__.'/public/2012/about.html',
+    'pageName' => 'about.html',
     'callback' => function() use ($app, $view) {
+        $view['pageName'] = 'about.html';
         return $app['twig']->render('about.twig', array('view' => $view));
     }
 );

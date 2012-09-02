@@ -16,8 +16,9 @@ $pages = require __DIR__.'/pages.php';
 
 // generate static html files
 foreach ($pages as $page) {
-    echo 'generate page: ', $page['file'], PHP_EOL;
-    file_put_contents($page['file'], $page['callback']());
+    $filePath = __DIR__ . '/public/2012/' .$page['pageName'];
+    echo 'generate page: ', $filePath, PHP_EOL;
+    file_put_contents($filePath, $page['callback']());
 }
 
 // generate stylesheets
