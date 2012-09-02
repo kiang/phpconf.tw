@@ -13,10 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-    <link href='http://fonts.googleapis.com/css?family=Peralta' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Irish+Grover:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lemon:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 
-    <link href="stylesheets/style.css?20120902000943" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="stylesheets/style.css?20120902110946" media="screen, projection" rel="stylesheet" type="text/css">
                 
 <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -39,35 +41,37 @@
 
 <body>
 
-<header role="banner">
-    <hgroup>
-        <h1 id="title"><a href="./">PHP Conference in Taiwan 2012</a></h1>
-        <h2 id="subtitle">Innovation and Application for the Future</h2>
-    </hgroup>
-</header>
+<div id="body-container">
+    <header role="banner" id="header">
+        <hgroup>
+            <h1 id="title"><a href="./">PHPConf Taiwan 2012</a></h1>
+            <h2 id="subtitle">Innovation and Application for the Future</h2>
+        </hgroup>
 
-<nav role="navigation">
-    <ul class="main-navigation">
-        <li><a href="./">News</a></li>
-        <li><a href="schedule.html">Schedule</a></li>
-        <li><a href="speakers.html">Speaker</a></li>
-        <li><a href="venue.html">Venue</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
+        <nav role="navigation" id="navigation">
+            <ul class="main-navigation">
+                <li class="active"><a href="./">News</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="speakers.html">Speaker</a></li>
+                <li><a href="venue.html">Venue</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="clr"></div>
+        </nav>
+    </header>
 
-<div id="main">
-    <div id="content">
-        <div>
+    <div id="main">
+        <div id="content">
+            <div class="news-index">
     <article>
         <header>
-            <h1>PHPconf 2012 場務組招募志工囉～～</h1>
-            <p>
+            <h3 class="news-date">
                 <time datetime="2012-08-20" pubdate data-updated="true">2012-08-20</time>
-            </p>
+            </h3>
+            <h1 class="news-title">PHPconf 2012 場務組招募志工囉～～</h1>
         </header>
 
-        <div>
+        <div class="news-content">
             <p>大家好，我是 PHPConf 場務組組長聽・風在這邊想招募熱血志工來協助活動的舉行先簡單介紹一下工作內容及相關福利吧～</p>
 
 <p>工作時間：
@@ -99,13 +103,13 @@
     </article>
     <article>
         <header>
-            <h1>Call for Creativity</h1>
-            <p>
+            <h3 class="news-date">
                 <time datetime="2012-08-16" pubdate data-updated="true">2012-08-16</time>
-            </p>
+            </h3>
+            <h1 class="news-title">Call for Creativity</h1>
         </header>
 
-        <div>
+        <div class="news-content">
             <p><span style="font-weight:bold;font-size:2em;">PHP Conference in Taiwan 2012</span><br />
 <span style="font-weight:bold;font-size:1.2em;margin-top:0.2em;">Innovation and Application for the Future</span></p>
 
@@ -163,13 +167,15 @@
         </div>
     </article>
 </div>
+        </div>
     </div>
-</div>
 
-<div id="sponsor">
-</div>
+    <div id="sponsor">
+        Sponsor Block
+    </div>
 
-<div id="footer">
+    <div id="footer">
+    </div>
 </div>
 
 </body>
