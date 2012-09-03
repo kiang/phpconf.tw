@@ -14,7 +14,7 @@
 
     <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Patua+One|PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
-    
+
     <link href="stylesheets/style.css?{{ "now"|date("YmdHms") }}" media="screen, projection" rel="stylesheet" type="text/css">
     {% block stylesheets %}
     {% endblock %}
@@ -36,7 +36,7 @@
         <nav role="navigation" id="navigation">
             <ul class="main-navigation">
                 <li{% if view.pageName == "index.html"    %} class="active"{% endif %}><a href="./">News</a></li>
-                <li{% if view.pageName == "schedules.html" %} class="active"{% endif %}><a href="schedules.html">Schedules</a></li>
+                <li{% if view.pageName == "schedule.html" %} class="active"{% endif %}><a href="schedule.html">Schedule</a></li>
                 <li{% if view.pageName == "speakers.html" %} class="active"{% endif %}><a href="speakers.html">Speakers</a></li>
                 <li{% if view.pageName == "location.html" %} class="active"{% endif %}><a href="location.html">Location</a></li>
                 <li{% if view.pageName == "about.html"    %} class="active"{% endif %}><a href="about.html">About</a></li>
@@ -53,11 +53,13 @@
         </div>
     </div>
 
+    {% block sidebar %}
     <div id="sidebar">
         <div id="sponsor">
             Sponsor Block
         </div>
     </div>
+    {% endblock %}
 
     <div class="clr"></div>
     

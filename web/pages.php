@@ -51,11 +51,11 @@ $pages[] = array(
 );
 
 $pages[] = array(
-    'route' => '/schedules',
-    'pageName' => 'schedules.html',
+    'route' => '/schedule',
+    'pageName' => 'schedule.html',
     'callback' => function() use ($app, $view) {
-        $view['pageName'] = 'schedules.html';
-        return $app['twig']->render('schedules.twig', array('view' => $view));
+        $view['pageName'] = 'schedule.html';
+        return $app['twig']->render('schedule.twig', array('view' => $view));
     },
 );
 
