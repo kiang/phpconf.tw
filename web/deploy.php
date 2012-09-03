@@ -10,10 +10,20 @@ if (false === realpath($moveTo)) {
 }
 $moveTo = realpath($moveTo);
 
-echo 'move deploy files from: ', $moveFrom, PHP_EOL,
-     'move deploy files to:   ', $moveTo, PHP_EOL,
-     PHP_EOL,
-     'moving files...', PHP_EOL;
+// clean .deploy directory first
+foreach (getFilesRecursively($moveTo, true) as $file) {
+    if (preg_match('/\.git/', $file)) continue;
+
+    echo 'delete "' , $file , '"', PHP_EOL;
+    unlink($file);
+}
+
+echo sprintf('
+move deploy files from: %s
+                    to: %s
+moving files...
+
+', $moveFrom, $moveTo);
 
 foreach (getFilesRecursively($moveFrom, true) as $file) {
     $toFile = str_replace($moveFrom, $moveTo, $file);
