@@ -16,6 +16,8 @@
     <link href='http://fonts.googleapis.com/css?family=Patua+One|PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
 
     <link href="stylesheets/style.css?{{ "now"|date("YmdHms") }}" media="screen, projection" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="javascripts/jquery.js"><!----></script>
+    <script type="text/javascript" src="javascripts/main.js"><!----></script>
     {% block stylesheets %}
     {% endblock %}
     {% block javascripts %}
@@ -58,6 +60,26 @@
         <div id="sponsor">
             Sponsor Block
         </div>
+
+        {% block life %}
+        <h1 id="life-title">直播現場</h1>
+
+        <div id="plurk-box">
+            <iframe src="" width="0" frameborder="0" height="0" scrolling="no"></iframe>
+            <div style="padding: 1px;">
+                <a href="http://plurk.com/" target="_blank"
+                   style="font-size: 10px !important; color: #999 !important; border: none; text-decorate: none;"
+                   title="Plurk - A Social Journal for your life">
+                    Plurk.com
+                </a>
+            </div>
+        </div>
+
+        <div id="tweet-box">
+            <a class="twitter-timeline"  href="https://twitter.com/gourrymk2" data-widget-id="243398152424660992">Tweets by @gourrymk2</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        {% endblock %}
     </div>
     {% endblock %}
 
