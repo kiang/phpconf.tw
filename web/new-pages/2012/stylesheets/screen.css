@@ -645,3 +645,270 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+
+/* line 4, ../sass/_float.sass */
+.float-left {
+  float: left;
+}
+
+/* line 7, ../sass/_float.sass */
+.float-right {
+  float: right;
+}
+
+/* line 10, ../sass/_float.sass */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 18, ../sass/_float.sass */
+.clear:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 28, ../sass/_float.sass */
+* html .clear {
+  height: 1%;
+}
+
+/* line 1, ../sass/_main.sass */
+.font-phpconf {
+  font-family: "phpConf";
+}
+
+/* line 5, ../sass/_main.sass */
+a:active, a:hover, a:link, a:visited {
+  text-decoration: none;
+}
+
+/* line 8, ../sass/_main.sass */
+body {
+  background: transparent url(../images/layout/bg.png) repeat-x center 40px;
+  font-family: "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+}
+
+/* line 14, ../sass/_main.sass */
+.navigation {
+  margin: 0;
+  padding: 0;
+}
+/* line 17, ../sass/_main.sass */
+.navigation li {
+  float: left;
+}
+
+/* line 23, ../sass/_main.sass */
+#past-editions {
+  background: #f5f4f6;
+}
+
+/* line 26, ../sass/_main.sass */
+#past-editions-content {
+  color: #617cbe;
+  height: 40px;
+  line-height: 40px;
+  padding-right: 1em;
+  text-align: right;
+}
+
+/* line 33, ../sass/_main.sass */
+#conference-title {
+  color: #70a3b7;
+  font-family: "Bauhs", sans-serif;
+  font-size: 6em;
+}
+
+/* line 39, ../sass/_main.sass */
+#conference-subtitle {
+  margin-top: -0.26em;
+}
+
+/* line 42, ../sass/_main.sass */
+.taiwan-letter, .conference-year {
+  font-family: "Gothic", sans-serif;
+  font-size: 0.6em;
+}
+
+/* line 47, ../sass/_main.sass */
+.conference-year {
+  margin-left: 0.2em;
+}
+
+/* line 50, ../sass/_main.sass */
+.taiwan-first-letter, .taiwan-letter, .title-color2 {
+  color: #757575;
+}
+
+/* line 53, ../sass/_main.sass */
+.taiwan-first-letter {
+  margin-left: -0.79em;
+}
+
+/* line 56, ../sass/_main.sass */
+.taiwan-letter {
+  margin-left: -0.2em;
+}
+
+/* line 59, ../sass/_main.sass */
+#conference-date {
+  color: #696a7b;
+  text-align: right;
+}
+
+/* line 63, ../sass/_main.sass */
+#conference-slogan {
+  color: #617cbe;
+  font-size: 2em;
+  letter-spacing: 0.059em;
+  text-align: right;
+}
+
+/* line 74, ../sass/_main.sass */
+#header-navigation {
+  margin-top: 1.8em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 81, ../sass/_main.sass */
+#header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
+  color: black;
+}
+/* line 84, ../sass/_main.sass */
+#header-navigation li {
+  padding-left: 2em;
+}
+
+/* line 87, ../sass/_main.sass */
+#footer-navigation {
+  font-weight: bold;
+}
+/* line 89, ../sass/_main.sass */
+#footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
+  color: white;
+}
+
+/* line 95, ../sass/_main.sass */
+#footer {
+  background: #70a3b7;
+  color: white;
+  height: 70px;
+  line-height: 70px;
+}
+
+@media screen and (min-width: 719px) {
+  /* line 5, ../sass/_responsive.sass */
+  .grid3 {
+    width: 180px;
+  }
+
+  /* line 7, ../sass/_responsive.sass */
+  .grid4 {
+    width: 240px;
+  }
+
+  /* line 9, ../sass/_responsive.sass */
+  .grid5 {
+    width: 300px;
+  }
+
+  /* line 11, ../sass/_responsive.sass */
+  .grid9 {
+    width: 540px;
+  }
+
+  /* line 13, ../sass/_responsive.sass */
+  .grid12 {
+    width: 720px;
+  }
+
+  /* line 16, ../sass/_responsive.sass */
+  #header-logo-content {
+    width: 720px;
+    float: right;
+  }
+
+  /* line 19, ../sass/_responsive.sass */
+  #conference-title {
+    width: 390px;
+    float: left;
+  }
+
+  /* line 22, ../sass/_responsive.sass */
+  #conference-date {
+    width: 330px;
+    float: right;
+    font-size: 1.3em;
+    line-height: 2.28em;
+  }
+
+  /* line 27, ../sass/_responsive.sass */
+  #header, #main, #past-editions-content, #footer-content {
+    margin: 0 auto;
+  }
+
+  /* line 29, ../sass/_responsive.sass */
+  #header {
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 33, ../sass/_responsive.sass */
+  .grid3 {
+    width: 240px;
+  }
+
+  /* line 35, ../sass/_responsive.sass */
+  .grid4 {
+    width: 320px;
+  }
+
+  /* line 37, ../sass/_responsive.sass */
+  .grid5 {
+    width: 400px;
+  }
+
+  /* line 39, ../sass/_responsive.sass */
+  .grid9 {
+    width: 720px;
+  }
+
+  /* line 41, ../sass/_responsive.sass */
+  .grid12 {
+    width: 960px;
+  }
+
+  /* line 44, ../sass/_responsive.sass */
+  #header-logo {
+    background: url(../images/layout/mascot.png) no-repeat 10px 100%;
+  }
+
+  /* line 47, ../sass/_responsive.sass */
+  #header-logo-content {
+    width: 720px;
+  }
+
+  /* line 49, ../sass/_responsive.sass */
+  #conference-title {
+    width: 400px;
+  }
+
+  /* line 51, ../sass/_responsive.sass */
+  #conference-date {
+    width: 320px;
+    font-size: 1.3em;
+    line-height: 2.28em;
+  }
+}
