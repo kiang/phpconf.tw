@@ -684,39 +684,39 @@ table {
   height: 1%;
 }
 
-/* line 4, ../sass/_main.sass */
+/* line 6, ../sass/_main.sass */
 .font-phpconf {
   font-family: "phpConf";
 }
 
-/* line 8, ../sass/_main.sass */
+/* line 10, ../sass/_main.sass */
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
-/* line 11, ../sass/_main.sass */
+/* line 13, ../sass/_main.sass */
 body {
   background: transparent url(../images/layout/bg.png) repeat-x center 40px;
-  font-family: "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "信黑體", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
-/* line 17, ../sass/_main.sass */
+/* line 20, ../sass/_main.sass */
 .navigation {
   margin: 0;
   padding: 0;
 }
-/* line 20, ../sass/_main.sass */
+/* line 23, ../sass/_main.sass */
 .navigation li {
   float: left;
 }
 
-/* line 27, ../sass/_main.sass */
+/* line 30, ../sass/_main.sass */
 #past-editions {
   background: #f5f4f6;
 }
 
-/* line 30, ../sass/_main.sass */
+/* line 33, ../sass/_main.sass */
 #past-editions-content {
   font-size: 0.9em;
   height: 40px;
@@ -724,56 +724,56 @@ body {
   padding-right: 1em;
   text-align: right;
 }
-/* line 37, ../sass/_main.sass */
+/* line 40, ../sass/_main.sass */
 #past-editions-content a:active, #past-editions-content a:hover, #past-editions-content a:link, #past-editions-content a:visited {
   color: #617cbe;
 }
 
-/* line 40, ../sass/_main.sass */
+/* line 43, ../sass/_main.sass */
 #conference-title {
   color: #70a3b7;
   font-family: "Bauhs", sans-serif;
   font-size: 6em;
 }
 
-/* line 46, ../sass/_main.sass */
+/* line 49, ../sass/_main.sass */
 #conference-subtitle {
   margin-top: -0.26em;
 }
 
-/* line 49, ../sass/_main.sass */
+/* line 52, ../sass/_main.sass */
 .taiwan-letter, .conference-year {
   font-family: "Gothic", sans-serif;
   font-size: 0.6em;
 }
 
-/* line 54, ../sass/_main.sass */
+/* line 57, ../sass/_main.sass */
 .conference-year {
   margin-left: 0.2em;
 }
 
-/* line 57, ../sass/_main.sass */
+/* line 60, ../sass/_main.sass */
 .taiwan-first-letter, .taiwan-letter, .title-color2 {
   color: #757575;
 }
 
-/* line 60, ../sass/_main.sass */
+/* line 63, ../sass/_main.sass */
 .taiwan-first-letter {
   margin-left: -0.79em;
 }
 
-/* line 63, ../sass/_main.sass */
+/* line 66, ../sass/_main.sass */
 .taiwan-letter {
   margin-left: -0.2em;
 }
 
-/* line 66, ../sass/_main.sass */
+/* line 69, ../sass/_main.sass */
 #conference-date {
   color: #696a7b;
   text-align: right;
 }
 
-/* line 70, ../sass/_main.sass */
+/* line 73, ../sass/_main.sass */
 #conference-slogan {
   color: #617cbe;
   font-size: 2em;
@@ -781,51 +781,51 @@ body {
   text-align: right;
 }
 
-/* line 80, ../sass/_main.sass */
+/* line 83, ../sass/_main.sass */
 #header-navigation {
   margin-top: 1.8em;
   font-size: 0.9em;
   font-weight: bold;
 }
-/* line 87, ../sass/_main.sass */
+/* line 90, ../sass/_main.sass */
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
 
-/* line 90, ../sass/_main.sass */
+/* line 93, ../sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 93, ../sass/_main.sass */
+/* line 96, ../sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
 
-/* line 96, ../sass/_main.sass */
+/* line 99, ../sass/_main.sass */
 #registration-link {
   color: #70a3b8;
 }
 
-/* line 103, ../sass/_main.sass */
+/* line 106, ../sass/_main.sass */
 #content-container {
   padding: 0 1em;
 }
 
-/* line 106, ../sass/_main.sass */
+/* line 109, ../sass/_main.sass */
 #content-title-container {
   border-bottom: 1px solid #617cbe;
   padding-left: 0.5em;
   padding-bottom: 0.8em;
 }
 
-/* line 110, ../sass/_main.sass */
+/* line 113, ../sass/_main.sass */
 #content-title {
   color: #404361;
   font-size: 1.6em;
   font-weight: bold;
 }
 
-/* line 120, ../sass/_main.sass */
+/* line 123, ../sass/_main.sass */
 #sidebar-container {
   background: url("../images/bg_sponser.png") repeat;
   border: 1px solid #cccccc;
@@ -839,12 +839,12 @@ body {
   text-align: center;
 }
 
-/* line 129, ../sass/_main.sass */
+/* line 132, ../sass/_main.sass */
 #sidebar-container img {
   border: #9f9f9f 1px solid;
 }
 
-/* line 136, ../sass/_main.sass */
+/* line 139, ../sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -852,78 +852,77 @@ body {
   line-height: 70px;
 }
 
-/* line 142, ../sass/_main.sass */
+/* line 145, ../sass/_main.sass */
 #copyright {
   font-size: 0.9em;
 }
 
-/* line 4, ../sass/_news.sass */
+/* line 2, ../sass/_news.sass */
 .news-index .news-content {
   padding-bottom: 1em;
 }
-/* line 6, ../sass/_news.sass */
+/* line 4, ../sass/_news.sass */
 .news-index article {
   border-bottom: 1px solid #617cbe;
-  font-family: "信黑體", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5em;
   margin-top: 2em;
 }
-/* line 12, ../sass/_news.sass */
+/* line 9, ../sass/_news.sass */
 .news-index article h1, .news-index article h2, .news-index article h3, .news-index article h4, .news-index article h5, .news-index article h6 {
   color: #617cbe;
   font-weight: bold;
   line-height: 1.5em;
 }
-/* line 16, ../sass/_news.sass */
+/* line 13, ../sass/_news.sass */
 .news-index article h1 {
   font-size: 1.75em;
   margin: 0;
 }
-/* line 19, ../sass/_news.sass */
+/* line 16, ../sass/_news.sass */
 .news-index article h2 {
   font-size: 1.5em;
   margin: 0;
 }
-/* line 22, ../sass/_news.sass */
+/* line 19, ../sass/_news.sass */
 .news-index article h3 {
   font-size: 1.25em;
   margin: 0;
 }
-/* line 25, ../sass/_news.sass */
+/* line 22, ../sass/_news.sass */
 .news-index article h4 {
   font-size: 1em;
   margin: 0;
 }
-/* line 29, ../sass/_news.sass */
+/* line 26, ../sass/_news.sass */
 .news-index article ul {
   list-style-type: disc;
 }
-/* line 31, ../sass/_news.sass */
+/* line 28, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: circle;
   margin-bottom: 0px;
 }
-/* line 34, ../sass/_news.sass */
+/* line 31, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: square;
   margin-bottom: 0px;
 }
-/* line 37, ../sass/_news.sass */
+/* line 34, ../sass/_news.sass */
 .news-index article ol {
   list-style-type: decimal;
 }
-/* line 39, ../sass/_news.sass */
+/* line 36, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-alpha;
   margin-bottom: 0px;
 }
-/* line 42, ../sass/_news.sass */
+/* line 39, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-roman;
   margin-bottom: 0px;
 }
 
-/* line 46, ../sass/_news.sass */
+/* line 43, ../sass/_news.sass */
 .news-date {
   font-size: 0.9em;
 }
