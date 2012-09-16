@@ -31,9 +31,9 @@
       padding-left: 1.6em
   #footer-navigation
     font:
-      size: 0.82em
+      size: 0.85em
     li
-      padding-right: 1em
+      padding-right: 1.8em
   #main
     margin-top: 50px
   #sidebar-container
@@ -41,7 +41,19 @@
     width: 100%
 
   .news-index
-    padding: 0 1em 4em 1em
+    article
+      padding: 0 1em
+
+  .schedule-index
+    padding: 0 1em
+
+  .schedule-time, .schedule-header-time
+    @include grid(2.3, 60px)
+    float: left
+  .schedule-info, .schedule-header-info
+    @include grid(4.8, 60px)
+    float: right
+    padding-left: 16px
 
 @media screen and (min-width: 960px)
   #header-logo
@@ -67,13 +79,21 @@
     li
       padding-left: 2em
   #footer-navigation
-    font:
-      size: 0.9em
     li
-      padding-right: 2em
+      padding-right: 3em
   #sidebar-container
     font-size:  0.85em
     width: 92%
 
   .news-index
-    padding: 0 1.2em 4em 1.2em
+    article
+      padding: 0 1.2em
+
+  .schedule-index
+    padding: 0 1.2em
+
+  .schedule-time, .schedule-header-time
+    @include grid(2.0, 80px)
+  .schedule-info, .schedule-header-info
+    @include grid(5.8, 80px)
+    padding-left: 16px

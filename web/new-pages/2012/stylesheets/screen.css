@@ -696,22 +696,22 @@ a:active, a:hover, a:link, a:visited {
 
 /* line 13, ../sass/_main.sass */
 body {
-  background: transparent url(../images/layout/bg.png) repeat-x center 40px;
+  background: #fdfbfb url(../images/layout/bg.png) repeat-x center 40px;
   font-family: "«H¶ÂÅé", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
-/* line 20, ../sass/_main.sass */
+/* line 19, ../sass/_main.sass */
 .navigation {
   margin: 0;
   padding: 0;
 }
-/* line 23, ../sass/_main.sass */
+/* line 22, ../sass/_main.sass */
 .navigation li {
   float: left;
 }
 
-/* line 30, ../sass/_main.sass */
+/* line 29, ../sass/_main.sass */
 #past-editions {
   background: #f5f4f6;
 }
@@ -857,74 +857,170 @@ body {
   font-size: 0.9em;
 }
 
-/* line 2, ../sass/_news.sass */
+/* line 1, ../sass/_news.sass */
+.news-index {
+  padding-bottom: 4em;
+}
+/* line 4, ../sass/_news.sass */
 .news-index .news-content {
   padding-bottom: 1em;
 }
-/* line 4, ../sass/_news.sass */
+/* line 7, ../sass/_news.sass */
 .news-index article {
   border-bottom: 1px solid #617cbe;
   line-height: 1.5em;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
-/* line 9, ../sass/_news.sass */
+/* line 12, ../sass/_news.sass */
 .news-index article h1, .news-index article h2, .news-index article h3, .news-index article h4, .news-index article h5, .news-index article h6 {
   color: #617cbe;
   font-weight: bold;
   line-height: 1.5em;
 }
-/* line 13, ../sass/_news.sass */
+/* line 16, ../sass/_news.sass */
 .news-index article h1 {
   font-size: 1.75em;
   margin: 0;
 }
-/* line 16, ../sass/_news.sass */
+/* line 19, ../sass/_news.sass */
 .news-index article h2 {
   font-size: 1.5em;
   margin: 0;
 }
-/* line 19, ../sass/_news.sass */
+/* line 22, ../sass/_news.sass */
 .news-index article h3 {
   font-size: 1.25em;
   margin: 0;
 }
-/* line 22, ../sass/_news.sass */
+/* line 25, ../sass/_news.sass */
 .news-index article h4 {
   font-size: 1em;
   margin: 0;
 }
-/* line 26, ../sass/_news.sass */
+/* line 28, ../sass/_news.sass */
 .news-index article ul {
   list-style-type: disc;
+  padding-left: 2em;
 }
-/* line 28, ../sass/_news.sass */
+/* line 31, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: circle;
   margin-bottom: 0px;
 }
-/* line 31, ../sass/_news.sass */
+/* line 34, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: square;
   margin-bottom: 0px;
 }
-/* line 34, ../sass/_news.sass */
+/* line 37, ../sass/_news.sass */
 .news-index article ol {
   list-style-type: decimal;
+  padding-left: 2em;
 }
-/* line 36, ../sass/_news.sass */
+/* line 40, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-alpha;
   margin-bottom: 0px;
 }
-/* line 39, ../sass/_news.sass */
+/* line 43, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-roman;
   margin-bottom: 0px;
 }
 
-/* line 43, ../sass/_news.sass */
+/* line 47, ../sass/_news.sass */
 .news-date {
   font-size: 0.9em;
+}
+
+/* line 1, ../sass/_schedule.sass */
+.schedule-index {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+/* line 6, ../sass/_schedule.sass */
+.schedule-header {
+  background: #7d8fd0;
+  border-bottom: 2px solid #404361;
+  color: white;
+  font-size: 1.5em;
+  line-height: 3.5em;
+}
+
+/* line 13, ../sass/_schedule.sass */
+.schedule-header-time {
+  text-align: center;
+}
+
+/* line 16, ../sass/_schedule.sass */
+.schedule-event, .schedule-event-short {
+  background: white;
+  border-bottom: 2px dotted #c8c9d0;
+}
+
+/* line 21, ../sass/_schedule.sass */
+.schedule-event-short .schedule-info {
+  color: #617cbe;
+  font-size: 1.3em;
+}
+
+/* line 25, ../sass/_schedule.sass */
+.schedule-time {
+  text-align: center;
+  line-height: 3.8em;
+}
+
+/* line 28, ../sass/_schedule.sass */
+.schedule-info {
+  border-left: 2px dotted #c8c9d0;
+  line-height: 3em;
+}
+/* line 31, ../sass/_schedule.sass */
+.schedule-info h4, .schedule-info h5 {
+  margin: 0.5em 0 0 0;
+  line-height: 1.2em;
+}
+/* line 34, ../sass/_schedule.sass */
+.schedule-info h4 {
+  font-size: 1.5em;
+}
+/* line 36, ../sass/_schedule.sass */
+.schedule-info h5 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+/* line 39, ../sass/_schedule.sass */
+.schedule-info article {
+  color: #617cbe;
+  font-size: 0.85em;
+  line-height: 1.2em;
+  padding-bottom: 0.5em;
+}
+
+/* line 46, ../sass/_schedule.sass */
+.schedule-break-time {
+  background: #e5e5ec;
+  border-bottom: 2px dotted #c8c9d0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.6em;
+}
+/* line 55, ../sass/_schedule.sass */
+.schedule-break-time small {
+  font-size: 0.6em;
+  font-weight: normal;
+  padding-left: 10px;
+}
+/* line 60, ../sass/_schedule.sass */
+.schedule-break-time .font-phpconf {
+  font-size: 1.5em;
+}
+
+/* line 63, ../sass/_schedule.sass */
+.schedule-break-time-last {
+  border-bottom: 2px solid #404361;
 }
 
 @media screen and (min-width: 719px) {
@@ -992,11 +1088,11 @@ body {
 
   /* line 32, ../sass/_responsive.sass */
   #footer-navigation {
-    font-size: 0.82em;
+    font-size: 0.85em;
   }
   /* line 35, ../sass/_responsive.sass */
   #footer-navigation li {
-    padding-right: 1em;
+    padding-right: 1.8em;
   }
 
   /* line 37, ../sass/_responsive.sass */
@@ -1010,76 +1106,106 @@ body {
     width: 100%;
   }
 
-  /* line 43, ../sass/_responsive.sass */
-  .news-index {
-    padding: 0 1em 4em 1em;
+  /* line 44, ../sass/_responsive.sass */
+  .news-index article {
+    padding: 0 1em;
+  }
+
+  /* line 47, ../sass/_responsive.sass */
+  .schedule-index {
+    padding: 0 1em;
+  }
+
+  /* line 50, ../sass/_responsive.sass */
+  .schedule-time, .schedule-header-time {
+    width: 138px;
+    float: left;
+  }
+
+  /* line 53, ../sass/_responsive.sass */
+  .schedule-info, .schedule-header-info {
+    width: 288px;
+    float: right;
+    padding-left: 16px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 47, ../sass/_responsive.sass */
+  /* line 59, ../sass/_responsive.sass */
   #header-logo {
     background: url("../images/layout/mascot.png") no-repeat 10px 100%;
   }
 
-  /* line 50, ../sass/_responsive.sass */
+  /* line 62, ../sass/_responsive.sass */
   #past-editions-content, #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 52, ../sass/_responsive.sass */
+  /* line 64, ../sass/_responsive.sass */
   #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 54, ../sass/_responsive.sass */
+  /* line 66, ../sass/_responsive.sass */
   #sidebar, #copyright {
     width: 240px;
   }
 
-  /* line 56, ../sass/_responsive.sass */
+  /* line 68, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 58, ../sass/_responsive.sass */
+  /* line 70, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 60, ../sass/_responsive.sass */
+  /* line 72, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 62, ../sass/_responsive.sass */
+  /* line 74, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 67, ../sass/_responsive.sass */
+  /* line 79, ../sass/_responsive.sass */
   #header-navigation li {
     padding-left: 2em;
   }
 
-  /* line 69, ../sass/_responsive.sass */
-  #footer-navigation {
-    font-size: 0.9em;
-  }
-  /* line 72, ../sass/_responsive.sass */
+  /* line 82, ../sass/_responsive.sass */
   #footer-navigation li {
-    padding-right: 2em;
+    padding-right: 3em;
   }
 
-  /* line 74, ../sass/_responsive.sass */
+  /* line 84, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.85em;
     width: 92%;
   }
 
-  /* line 78, ../sass/_responsive.sass */
-  .news-index {
-    padding: 0 1.2em 4em 1.2em;
+  /* line 89, ../sass/_responsive.sass */
+  .news-index article {
+    padding: 0 1.2em;
+  }
+
+  /* line 92, ../sass/_responsive.sass */
+  .schedule-index {
+    padding: 0 1.2em;
+  }
+
+  /* line 95, ../sass/_responsive.sass */
+  .schedule-time, .schedule-header-time {
+    width: 160px;
+  }
+
+  /* line 97, ../sass/_responsive.sass */
+  .schedule-info, .schedule-header-info {
+    width: 464px;
+    padding-left: 16px;
   }
 }
