@@ -1,3 +1,4 @@
+@charset "CP950";
 /* line 17, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -683,92 +684,96 @@ table {
   height: 1%;
 }
 
-/* line 1, ../sass/_main.sass */
+/* line 4, ../sass/_main.sass */
 .font-phpconf {
   font-family: "phpConf";
 }
 
-/* line 5, ../sass/_main.sass */
+/* line 8, ../sass/_main.sass */
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
-/* line 8, ../sass/_main.sass */
+/* line 11, ../sass/_main.sass */
 body {
   background: transparent url(../images/layout/bg.png) repeat-x center 40px;
   font-family: "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
-/* line 14, ../sass/_main.sass */
+/* line 17, ../sass/_main.sass */
 .navigation {
   margin: 0;
   padding: 0;
 }
-/* line 17, ../sass/_main.sass */
+/* line 20, ../sass/_main.sass */
 .navigation li {
   float: left;
 }
 
-/* line 23, ../sass/_main.sass */
+/* line 27, ../sass/_main.sass */
 #past-editions {
   background: #f5f4f6;
 }
 
-/* line 26, ../sass/_main.sass */
+/* line 30, ../sass/_main.sass */
 #past-editions-content {
-  color: #617cbe;
+  font-size: 0.9em;
   height: 40px;
   line-height: 40px;
   padding-right: 1em;
   text-align: right;
 }
+/* line 37, ../sass/_main.sass */
+#past-editions-content a:active, #past-editions-content a:hover, #past-editions-content a:link, #past-editions-content a:visited {
+  color: #617cbe;
+}
 
-/* line 33, ../sass/_main.sass */
+/* line 40, ../sass/_main.sass */
 #conference-title {
   color: #70a3b7;
   font-family: "Bauhs", sans-serif;
   font-size: 6em;
 }
 
-/* line 39, ../sass/_main.sass */
+/* line 46, ../sass/_main.sass */
 #conference-subtitle {
   margin-top: -0.26em;
 }
 
-/* line 42, ../sass/_main.sass */
+/* line 49, ../sass/_main.sass */
 .taiwan-letter, .conference-year {
   font-family: "Gothic", sans-serif;
   font-size: 0.6em;
 }
 
-/* line 47, ../sass/_main.sass */
+/* line 54, ../sass/_main.sass */
 .conference-year {
   margin-left: 0.2em;
 }
 
-/* line 50, ../sass/_main.sass */
+/* line 57, ../sass/_main.sass */
 .taiwan-first-letter, .taiwan-letter, .title-color2 {
   color: #757575;
 }
 
-/* line 53, ../sass/_main.sass */
+/* line 60, ../sass/_main.sass */
 .taiwan-first-letter {
   margin-left: -0.79em;
 }
 
-/* line 56, ../sass/_main.sass */
+/* line 63, ../sass/_main.sass */
 .taiwan-letter {
   margin-left: -0.2em;
 }
 
-/* line 59, ../sass/_main.sass */
+/* line 66, ../sass/_main.sass */
 #conference-date {
   color: #696a7b;
   text-align: right;
 }
 
-/* line 63, ../sass/_main.sass */
+/* line 70, ../sass/_main.sass */
 #conference-slogan {
   color: #617cbe;
   font-size: 2em;
@@ -776,31 +781,70 @@ body {
   text-align: right;
 }
 
-/* line 74, ../sass/_main.sass */
+/* line 80, ../sass/_main.sass */
 #header-navigation {
   margin-top: 1.8em;
   font-size: 0.9em;
   font-weight: bold;
 }
-/* line 81, ../sass/_main.sass */
+/* line 87, ../sass/_main.sass */
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
-/* line 84, ../sass/_main.sass */
-#header-navigation li {
-  padding-left: 2em;
-}
 
-/* line 87, ../sass/_main.sass */
+/* line 90, ../sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 89, ../sass/_main.sass */
+/* line 93, ../sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
 
-/* line 95, ../sass/_main.sass */
+/* line 96, ../sass/_main.sass */
+#registration-link {
+  color: #70a3b8;
+}
+
+/* line 103, ../sass/_main.sass */
+#content-container {
+  padding: 0 1em;
+}
+
+/* line 106, ../sass/_main.sass */
+#content-title-container {
+  border-bottom: 1px solid #617cbe;
+  padding-left: 0.5em;
+  padding-bottom: 0.8em;
+}
+
+/* line 110, ../sass/_main.sass */
+#content-title {
+  color: #404361;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+/* line 120, ../sass/_main.sass */
+#sidebar-container {
+  background: url("../images/bg_sponser.png") repeat;
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
+  -moz-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
+  box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
+  color: #696a7b;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+/* line 129, ../sass/_main.sass */
+#sidebar-container img {
+  border: #9f9f9f 1px solid;
+}
+
+/* line 136, ../sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -808,107 +852,235 @@ body {
   line-height: 70px;
 }
 
+/* line 142, ../sass/_main.sass */
+#copyright {
+  font-size: 0.9em;
+}
+
+/* line 4, ../sass/_news.sass */
+.news-index .news-content {
+  padding-bottom: 1em;
+}
+/* line 6, ../sass/_news.sass */
+.news-index article {
+  border-bottom: 1px solid #617cbe;
+  font-family: "«H¶ÂÅé", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  margin-top: 2em;
+}
+/* line 12, ../sass/_news.sass */
+.news-index article h1, .news-index article h2, .news-index article h3, .news-index article h4, .news-index article h5, .news-index article h6 {
+  color: #617cbe;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+/* line 16, ../sass/_news.sass */
+.news-index article h1 {
+  font-size: 1.75em;
+  margin: 0;
+}
+/* line 19, ../sass/_news.sass */
+.news-index article h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+/* line 22, ../sass/_news.sass */
+.news-index article h3 {
+  font-size: 1.25em;
+  margin: 0;
+}
+/* line 25, ../sass/_news.sass */
+.news-index article h4 {
+  font-size: 1em;
+  margin: 0;
+}
+/* line 29, ../sass/_news.sass */
+.news-index article ul {
+  list-style-type: disc;
+}
+/* line 31, ../sass/_news.sass */
+.news-index article ul ul {
+  list-style-type: circle;
+  margin-bottom: 0px;
+}
+/* line 34, ../sass/_news.sass */
+.news-index article ul ul {
+  list-style-type: square;
+  margin-bottom: 0px;
+}
+/* line 37, ../sass/_news.sass */
+.news-index article ol {
+  list-style-type: decimal;
+}
+/* line 39, ../sass/_news.sass */
+.news-index article ol ol {
+  list-style-type: lower-alpha;
+  margin-bottom: 0px;
+}
+/* line 42, ../sass/_news.sass */
+.news-index article ol ol {
+  list-style-type: lower-roman;
+  margin-bottom: 0px;
+}
+
+/* line 46, ../sass/_news.sass */
+.news-date {
+  font-size: 0.9em;
+}
+
 @media screen and (min-width: 719px) {
   /* line 5, ../sass/_responsive.sass */
-  .grid3 {
-    width: 180px;
+  #past-editions-content, #header, #main, #header-logo-content, #footer-content {
+    width: 720px;
   }
 
   /* line 7, ../sass/_responsive.sass */
-  .grid4 {
-    width: 240px;
-  }
-
-  /* line 9, ../sass/_responsive.sass */
-  .grid5 {
-    width: 300px;
-  }
-
-  /* line 11, ../sass/_responsive.sass */
-  .grid9 {
+  #footer-navigation {
     width: 540px;
   }
 
-  /* line 13, ../sass/_responsive.sass */
-  .grid12 {
-    width: 720px;
+  /* line 9, ../sass/_responsive.sass */
+  #copyright {
+    width: 180px;
   }
 
-  /* line 16, ../sass/_responsive.sass */
-  #header-logo-content {
-    width: 720px;
+  /* line 11, ../sass/_responsive.sass */
+  #content {
+    width: 510px;
+  }
+
+  /* line 13, ../sass/_responsive.sass */
+  #sidebar {
+    width: 210px;
+  }
+
+  /* line 15, ../sass/_responsive.sass */
+  #content, #conference-title, #footer-navigation {
+    float: left;
+  }
+
+  /* line 17, ../sass/_responsive.sass */
+  #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
   /* line 19, ../sass/_responsive.sass */
   #conference-title {
     width: 390px;
-    float: left;
   }
 
-  /* line 22, ../sass/_responsive.sass */
+  /* line 21, ../sass/_responsive.sass */
   #conference-date {
     width: 330px;
-    float: right;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 27, ../sass/_responsive.sass */
+  /* line 25, ../sass/_responsive.sass */
   #header, #main, #past-editions-content, #footer-content {
     margin: 0 auto;
   }
 
-  /* line 29, ../sass/_responsive.sass */
+  /* line 27, ../sass/_responsive.sass */
   #header {
     padding-top: 20px;
   }
-}
-@media screen and (min-width: 960px) {
-  /* line 33, ../sass/_responsive.sass */
-  .grid3 {
-    width: 240px;
+
+  /* line 30, ../sass/_responsive.sass */
+  #header-navigation li {
+    padding-left: 1.6em;
   }
 
+  /* line 32, ../sass/_responsive.sass */
+  #footer-navigation {
+    font-size: 0.82em;
+  }
   /* line 35, ../sass/_responsive.sass */
-  .grid4 {
-    width: 320px;
+  #footer-navigation li {
+    padding-right: 1em;
   }
 
   /* line 37, ../sass/_responsive.sass */
-  .grid5 {
-    width: 400px;
+  #main {
+    margin-top: 50px;
   }
 
   /* line 39, ../sass/_responsive.sass */
-  .grid9 {
-    width: 720px;
+  #sidebar-container {
+    font-size: 0.8em;
+    width: 100%;
   }
 
-  /* line 41, ../sass/_responsive.sass */
-  .grid12 {
+  /* line 43, ../sass/_responsive.sass */
+  .news-index {
+    padding: 0 1em 4em 1em;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 47, ../sass/_responsive.sass */
+  #header-logo {
+    background: url("../images/layout/mascot.png") no-repeat 10px 100%;
+  }
+
+  /* line 50, ../sass/_responsive.sass */
+  #past-editions-content, #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 44, ../sass/_responsive.sass */
-  #header-logo {
-    background: url(../images/layout/mascot.png) no-repeat 10px 100%;
-  }
-
-  /* line 47, ../sass/_responsive.sass */
-  #header-logo-content {
+  /* line 52, ../sass/_responsive.sass */
+  #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 49, ../sass/_responsive.sass */
+  /* line 54, ../sass/_responsive.sass */
+  #sidebar, #copyright {
+    width: 240px;
+  }
+
+  /* line 56, ../sass/_responsive.sass */
+  #content, #conference-title, #footer-navigation {
+    float: left;
+  }
+
+  /* line 58, ../sass/_responsive.sass */
+  #header-logo-content, #conference-date, #sidebar, #copyright {
+    float: right;
+  }
+
+  /* line 60, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 51, ../sass/_responsive.sass */
+  /* line 62, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
+  }
+
+  /* line 67, ../sass/_responsive.sass */
+  #header-navigation li {
+    padding-left: 2em;
+  }
+
+  /* line 69, ../sass/_responsive.sass */
+  #footer-navigation {
+    font-size: 0.9em;
+  }
+  /* line 72, ../sass/_responsive.sass */
+  #footer-navigation li {
+    padding-right: 2em;
+  }
+
+  /* line 74, ../sass/_responsive.sass */
+  #sidebar-container {
+    font-size: 0.85em;
+    width: 92%;
+  }
+
+  /* line 78, ../sass/_responsive.sass */
+  .news-index {
+    padding: 0 1.2em 4em 1.2em;
   }
 }

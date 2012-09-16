@@ -2,53 +2,78 @@
   width: $columns * $unitWidth
 
 @media screen and (min-width: 719px)
-  .grid3
-    @include grid(3, 60px)
-  .grid4
-    @include grid(4, 60px)
-  .grid5
-    @include grid(5, 60px)
-  .grid9
+  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+    @include grid(12, 60px)
+  #footer-navigation
     @include grid(9, 60px)
-  .grid12
-    @include grid(12, 60px)
-
-  #header-logo-content
-    @include grid(12, 60px)
+  #copyright
+    @include grid(3, 60px)
+  #content
+    @include grid(8.5, 60px)
+  #sidebar
+    @include grid(3.5, 60px)
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
     float: right
   #conference-title
     @include grid(6.5, 60px)
-    float: left
   #conference-date
     @include grid(5.5, 60px)
-    float: right
     font-size: 1.3em
     line-height: 2.28em
   #header, #main, #past-editions-content, #footer-content
     margin: 0 auto
   #header
     padding-top: 20px
+  #header-navigation
+    li
+      padding-left: 1.6em
+  #footer-navigation
+    font:
+      size: 0.82em
+    li
+      padding-right: 1em
+  #main
+    margin-top: 50px
+  #sidebar-container
+    font-size:  0.8em
+    width: 100%
+
+  .news-index
+    padding: 0 1em 4em 1em
 
 @media screen and (min-width: 960px)
-  .grid3
-    @include grid(3, 80px)
-  .grid4
-    @include grid(4, 80px)
-  .grid5
-    @include grid(5, 80px)
-  .grid9
-    @include grid(9, 80px)
-  .grid12
-    @include grid(12, 80px)
-
   #header-logo
-    background: url(../images/layout/mascot.png) no-repeat 10px 100%
+    background: url('../images/layout/mascot.png') no-repeat 10px 100%
 
-  #header-logo-content
+  #past-editions-content, #header, #main, #footer-content
+    @include grid(12, 80px)
+  #content, #footer-navigation, #header-logo-content
     @include grid(9, 80px)
+  #sidebar, #copyright
+    @include grid(3, 80px)
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
+    float: right
   #conference-title
     @include grid(5, 80px)
   #conference-date
     @include grid(4, 80px)
     font-size: 1.3em
     line-height: 2.28em
+  #header-navigation
+    li
+      padding-left: 2em
+  #footer-navigation
+    font:
+      size: 0.9em
+    li
+      padding-right: 2em
+  #sidebar-container
+    font-size:  0.85em
+    width: 92%
+
+  .news-index
+    padding: 0 1.2em 4em 1.2em

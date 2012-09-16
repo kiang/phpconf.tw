@@ -1,3 +1,6 @@
+//========================================
+// common settings
+//========================================
 .font-phpconf
   font:
     family: "phpConf"
@@ -16,6 +19,7 @@ body
   padding: 0
   li
     float: left
+//========== common settings end ==========
 
 //========================================
 // header settings
@@ -24,11 +28,14 @@ body
   background: #F5F4F6
 
 #past-editions-content
-  color: #617CBE
+  font-size: 0.9em
   height: 40px
   line-height: 40px
   padding-right: 1em
   text-align: right
+
+  a:active, a:hover, a:link, a:visited
+    color: #617CBE
 
 #conference-title
   color: #70A3B7
@@ -65,7 +72,6 @@ body
   font-size:  2em
   letter-spacing: 0.059em
   text-align: right
-
 //========== header settings end ==========
 
 //========================================
@@ -81,13 +87,48 @@ body
   a:active, a:hover, a:link, a:visited
     color: #000
 
-  li
-    padding-left: 2em
-
 #footer-navigation
-  font-weight: bold
+  font:
+    weight: bold
   a:active, a:hover, a:link, a:visited
     color: #FFF
+
+#registration-link
+  color: #70A3B8
+//========== navigation settings end ==========
+
+//========================================
+// main content settings
+//========================================
+#content-container
+  padding: 0 1em
+
+#content-title-container
+  border-bottom: 1px solid #617CBE
+  padding-left: 0.5em
+  padding-bottom: 0.8em
+#content-title
+  color: #404361
+  font:
+    size: 1.6em
+    weight: bold
+//========== navigation settings end ==========
+
+//========================================
+// sidebar settings
+//========================================
+#sidebar-container
+  background: url('../images/bg_sponser.png') repeat
+  border: 1px solid #CCC
+  +box-shadow(rgba(43, 39, 40, .4) 0 0 8px)
+  color: #696A7B
+  font-weight: bold
+  margin: 0 auto
+  padding: 2em 0
+  text-align: center
+#sidebar-container img
+  border: #9f9f9f 1px solid
+//========== sidebar settings end ==========
 
 //========================================
 // footer settings
@@ -98,3 +139,6 @@ body
   height: 70px
   line-height: 70px
 
+#copyright
+  font-size: 0.9em
+//========== footer settings end ==========
