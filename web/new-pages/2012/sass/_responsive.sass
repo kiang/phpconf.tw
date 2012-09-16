@@ -55,6 +55,14 @@
     float: right
     padding-left: 16px
 
+  .speaker-info
+    @include grid(2, 60px)
+    float: left
+  .speaker-description
+    @include grid(5.5, 60px)
+    float: right
+    padding: 0 12px
+
   #map
     @include grid(7.3, 60px)
     height: 360px
@@ -101,6 +109,12 @@
   .schedule-info, .schedule-header-info
     @include grid(5.8, 80px)
     padding-left: 16px
+
+  .speaker-info
+    @include grid(2, 80px)
+  .speaker-description
+    @include grid(6.1, 80px)
+    padding: 0 18px
 
   #map
     @include grid(8, 80px)
