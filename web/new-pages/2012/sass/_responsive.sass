@@ -55,6 +55,10 @@
     float: right
     padding-left: 16px
 
+  #map
+    @include grid(7.3, 60px)
+    height: 360px
+
 @media screen and (min-width: 960px)
   #header-logo
     background: url('../images/layout/mascot.png') no-repeat 10px 100%
@@ -97,3 +101,7 @@
   .schedule-info, .schedule-header-info
     @include grid(5.8, 80px)
     padding-left: 16px
+
+  #map
+    @include grid(8, 80px)
+    height: 480px
