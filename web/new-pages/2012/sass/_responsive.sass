@@ -60,8 +60,10 @@
     float: left
   .speaker-description
     @include grid(5.5, 60px)
-    float: right
-    padding: 0 12px
+    float: left
+    padding-left: 18px
+  .speaker-job-title
+    line-height: 1.6em
 
   #map
     @include grid(7.3, 60px)
@@ -114,7 +116,10 @@
     @include grid(2, 80px)
   .speaker-description
     @include grid(6.1, 80px)
-    padding: 0 18px
+  .speaker-name, .speaker-job-title, .staff-name, .staff-job-title
+    float: left
+  .speaker-job-title
+    line-height: 2.4em
 
   #map
     @include grid(8, 80px)
