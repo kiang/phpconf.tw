@@ -1,0 +1,126 @@
+@mixin grid($columns, $unitWidth)
+  width: $columns * $unitWidth
+
+@media screen and (min-width: 719px)
+  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+    @include grid(12, 60px)
+  #footer-navigation
+    @include grid(9, 60px)
+  #copyright
+    @include grid(3, 60px)
+  #content
+    @include grid(8.5, 60px)
+  #sidebar
+    @include grid(3.5, 60px)
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
+    float: right
+  #conference-title
+    @include grid(6.5, 60px)
+  #conference-date
+    @include grid(5.5, 60px)
+    font-size: 1.3em
+    line-height: 2.28em
+  #header, #main, #past-editions-content, #footer-content
+    margin: 0 auto
+  #header
+    padding-top: 20px
+  #header-navigation
+    li
+      padding-left: 1.6em
+  #footer-navigation
+    font:
+      size: 0.85em
+    li
+      padding-right: 1.8em
+  #main
+    margin-top: 50px
+  #sidebar-container
+    font-size:  0.8em
+    width: 100%
+
+  .news-index
+    article
+      padding: 0 1em
+
+  .schedule-index
+    padding: 0 1em
+
+  .schedule-time, .schedule-header-time
+    @include grid(2.3, 60px)
+    float: left
+  .schedule-info, .schedule-header-info
+    @include grid(4.8, 60px)
+    float: right
+    padding-left: 16px
+
+  .speaker-info
+    @include grid(2, 60px)
+    float: left
+  .speaker-description
+    @include grid(5.5, 60px)
+    float: left
+    padding-left: 18px
+  .speaker-job-title
+    line-height: 1.6em
+
+  #map
+    @include grid(7.3, 60px)
+    height: 360px
+
+@media screen and (min-width: 960px)
+  #header-logo
+    background: url('../images/layout/mascot.png') no-repeat 10px 100%
+
+  #past-editions-content, #header, #main, #footer-content
+    @include grid(12, 80px)
+  #content, #footer-navigation, #header-logo-content
+    @include grid(9, 80px)
+  #sidebar, #copyright
+    @include grid(3, 80px)
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
+    float: right
+  #conference-title
+    @include grid(5, 80px)
+  #conference-date
+    @include grid(4, 80px)
+    font-size: 1.3em
+    line-height: 2.28em
+  #header-navigation
+    li
+      padding-left: 2em
+  #footer-navigation
+    li
+      padding-right: 3em
+  #sidebar-container
+    font-size:  0.85em
+    width: 92%
+
+  .news-index
+    article
+      padding: 0 1.2em
+
+  .schedule-index
+    padding: 0 1.2em
+
+  .schedule-time, .schedule-header-time
+    @include grid(2.0, 80px)
+  .schedule-info, .schedule-header-info
+    @include grid(5.8, 80px)
+    padding-left: 16px
+
+  .speaker-info
+    @include grid(2, 80px)
+  .speaker-description
+    @include grid(6.1, 80px)
+  .speaker-name, .speaker-job-title, .staff-name, .staff-job-title
+    float: left
+  .speaker-job-title
+    line-height: 2.4em
+
+  #map
+    @include grid(8, 80px)
+    height: 480px
