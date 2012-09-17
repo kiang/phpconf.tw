@@ -1,3 +1,198 @@
+/* line 17, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 34, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body {
+  text-align: center;
+}
+/* line 44, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+* html body legend {
+  margin: 0px -8px 16px 0;
+  padding: 0;
+}
+/* line 48, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+html > body p code {
+  *white-space: normal;
+}
+
+/* line 60, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+.container {
+  text-align: left;
+}
+
+/* line 62, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+sup {
+  vertical-align: text-top;
+}
+
+/* line 64, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+sub {
+  vertical-align: text-bottom;
+}
+
+/* line 66, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+hr {
+  margin: -8px auto 11px;
+}
+
+/* line 68, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 70, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+fieldset {
+  padding-top: 0;
+}
+
+/* line 72, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+legend {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+}
+
+/* line 76, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+fieldset, #IE8#HACK {
+  padding-top: 1.4em;
+}
+
+/* line 77, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+legend, #IE8#HACK {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 78, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 80, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+label {
+  position: relative;
+  top: -0.25em;
+}
+
+/* line 84, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.text {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 88, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.text:focus {
+  border: 1px solid #666666;
+}
+/* line 90, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.title {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 94, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.title:focus {
+  border: 1px solid #666666;
+}
+/* line 96, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.checkbox {
+  position: relative;
+  top: 0.25em;
+}
+/* line 99, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.radio {
+  position: relative;
+  top: 0.25em;
+}
+/* line 102, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+input.button {
+  position: relative;
+  top: 0.25em;
+}
+
+/* line 105, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+textarea {
+  margin: 0.5em 0;
+}
+
+/* line 107, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+select {
+  margin: 0.5em 0;
+}
+
+/* line 109, C:/Users/Administrator/.yari/ruby-1.9.3-p194-i386-mingw32/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+button {
+  position: relative;
+  top: 0.25em;
+}
+
+/* line 7, ../sass/screen.sass */
+body {
+  text-align: left;
+}
+
 /* normalize.css v1.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -5,7 +200,7 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 21, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 21, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -23,7 +218,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 31, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 31, ../sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -36,7 +231,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 42, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 42, ../sass/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -47,7 +242,7 @@ audio:not([controls]) {
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 53, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 53, ../sass/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -61,7 +256,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 68, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 68, ../sass/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -75,7 +270,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 83, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 83, ../sass/_normalize.scss */
 html,
 button,
 input,
@@ -87,7 +282,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
-/* line 91, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 91, ../sass/_normalize.scss */
 body {
   margin: 0;
 }
@@ -98,7 +293,7 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 103, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 103, ../sass/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -106,7 +301,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 112, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 112, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -120,37 +315,37 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 126, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 126, ../sass/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 131, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 131, ../sass/_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 136, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 136, ../sass/_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 141, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 141, ../sass/_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 146, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 146, ../sass/_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 151, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 151, ../sass/_normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
@@ -159,7 +354,7 @@ h6 {
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 160, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 160, ../sass/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -167,13 +362,13 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 169, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 169, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 173, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 173, ../sass/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -181,7 +376,7 @@ blockquote {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 181, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 181, ../sass/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -189,7 +384,7 @@ dfn {
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
-/* line 189, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 189, ../sass/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -198,7 +393,7 @@ mark {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 199, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 199, ../sass/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -207,7 +402,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 210, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 210, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -220,7 +415,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 220, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 220, ../sass/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -230,7 +425,7 @@ pre {
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
-/* line 230, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 230, ../sass/_normalize.scss */
 q {
   quotes: none;
 }
@@ -238,7 +433,7 @@ q {
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 239, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 239, ../sass/_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -248,7 +443,7 @@ q:after {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 248, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 248, ../sass/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -256,7 +451,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 257, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 257, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -265,12 +460,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 264, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 264, ../sass/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 268, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 268, ../sass/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -281,7 +476,7 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 283, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 283, ../sass/_normalize.scss */
 dl,
 menu,
 ol,
@@ -289,7 +484,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 287, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 287, ../sass/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -297,7 +492,7 @@ dd {
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 297, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 297, ../sass/_normalize.scss */
 menu,
 ol,
 ul {
@@ -307,7 +502,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 306, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 306, ../sass/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -321,7 +516,7 @@ nav ol {
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 320, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 320, ../sass/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -332,7 +527,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 329, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 329, ../sass/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -343,7 +538,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 341, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 341, ../sass/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -354,7 +549,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
-/* line 353, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 353, ../sass/_normalize.scss */
 form {
   margin: 0;
 }
@@ -362,7 +557,7 @@ form {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 361, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 361, ../sass/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -374,7 +569,7 @@ fieldset {
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 373, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 373, ../sass/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -391,7 +586,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 390, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 390, ../sass/_normalize.scss */
 button,
 input,
 select,
@@ -410,7 +605,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 403, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 403, ../sass/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -425,7 +620,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 420, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 420, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -441,7 +636,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 431, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 431, ../sass/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -453,7 +648,7 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 443, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 443, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -471,7 +666,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 456, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 456, ../sass/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -485,7 +680,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 469, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 469, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -494,7 +689,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 478, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 478, ../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -505,7 +700,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 488, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 488, ../sass/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -519,7 +714,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 501, Z:/phpconf.tw/web/new-pages/2012/sass/_normalize.scss */
+/* line 501, ../sass/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -581,17 +776,17 @@ table {
   font-style: normal;
 }
 
-/* line 4, Z:/phpconf.tw/web/new-pages/2012/sass/_float.sass */
+/* line 4, ../sass/_float.sass */
 .float-left {
   float: left;
 }
 
-/* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_float.sass */
+/* line 7, ../sass/_float.sass */
 .float-right {
   float: right;
 }
 
-/* line 10, Z:/phpconf.tw/web/new-pages/2012/sass/_float.sass */
+/* line 10, ../sass/_float.sass */
 .clear {
   clear: both;
   display: block;
@@ -601,7 +796,7 @@ table {
   height: 0;
 }
 
-/* line 18, Z:/phpconf.tw/web/new-pages/2012/sass/_float.sass */
+/* line 18, ../sass/_float.sass */
 .clear:after {
   clear: both;
   content: " ";
@@ -613,44 +808,44 @@ table {
   height: 0;
 }
 
-/* line 28, Z:/phpconf.tw/web/new-pages/2012/sass/_float.sass */
+/* line 28, ../sass/_float.sass */
 * html .clear {
   height: 1%;
 }
 
-/* line 4, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 4, ../sass/_main.sass */
 .font-phpconf {
   font-family: "phpConf";
 }
 
-/* line 8, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 8, ../sass/_main.sass */
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
-/* line 11, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 11, ../sass/_main.sass */
 body {
   background: #fdfbfb url(../images/layout/bg.png) repeat-x center 40px;
   font-family: "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
-/* line 17, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 17, ../sass/_main.sass */
 .navigation {
   margin: 0;
   padding: 0;
 }
-/* line 20, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 20, ../sass/_main.sass */
 .navigation li {
   float: left;
 }
 
-/* line 27, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 27, ../sass/_main.sass */
 #past-editions {
   background: #f5f4f6;
 }
 
-/* line 31, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 31, ../sass/_main.sass */
 #past-editions-content {
   font-size: 0.9em;
   height: 40px;
@@ -658,56 +853,56 @@ body {
   padding-right: 1em;
   text-align: right;
 }
-/* line 38, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 38, ../sass/_main.sass */
 #past-editions-content a:active, #past-editions-content a:hover, #past-editions-content a:link, #past-editions-content a:visited {
   color: #617cbe;
 }
 
-/* line 41, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 41, ../sass/_main.sass */
 #conference-title {
   color: #70a3b7;
   font-family: "Bauhs", sans-serif;
   font-size: 6em;
 }
 
-/* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 47, ../sass/_main.sass */
 #conference-subtitle {
   margin-top: -0.26em;
 }
 
-/* line 50, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 50, ../sass/_main.sass */
 .taiwan-letter, .conference-year {
   font-family: "Gothic", sans-serif;
   font-size: 0.6em;
 }
 
-/* line 55, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 55, ../sass/_main.sass */
 .conference-year {
   margin-left: 0.2em;
 }
 
-/* line 58, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 58, ../sass/_main.sass */
 .taiwan-first-letter, .taiwan-letter, .title-color2 {
   color: #757575;
 }
 
-/* line 61, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 61, ../sass/_main.sass */
 .taiwan-first-letter {
   margin-left: -0.79em;
 }
 
-/* line 64, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 64, ../sass/_main.sass */
 .taiwan-letter {
   margin-left: -0.2em;
 }
 
-/* line 67, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 67, ../sass/_main.sass */
 #conference-date {
   color: #696a7b;
   text-align: right;
 }
 
-/* line 71, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 71, ../sass/_main.sass */
 #conference-slogan {
   color: #617cbe;
   font-size: 2em;
@@ -715,51 +910,51 @@ body {
   text-align: right;
 }
 
-/* line 81, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 81, ../sass/_main.sass */
 #header-navigation {
   margin-top: 1.8em;
   font-size: 0.9em;
   font-weight: bold;
 }
-/* line 88, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 88, ../sass/_main.sass */
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
 
-/* line 91, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 91, ../sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 94, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 94, ../sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
 
-/* line 97, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 97, ../sass/_main.sass */
 #registration-link {
   color: #70a3b8;
 }
 
-/* line 104, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 104, ../sass/_main.sass */
 #content-container {
   padding: 0 1em;
 }
 
-/* line 107, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 107, ../sass/_main.sass */
 #content-title-container {
   border-bottom: 1px solid #617cbe;
   padding-left: 0.5em;
   padding-bottom: 0.8em;
 }
 
-/* line 111, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 111, ../sass/_main.sass */
 #content-title {
   color: #404361;
   font-size: 1.6em;
   font-weight: bold;
 }
 
-/* line 121, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 121, ../sass/_main.sass */
 #sidebar-container {
   background: url("../images/bg_sponser.png") repeat;
   border: 1px solid #cccccc;
@@ -773,12 +968,12 @@ body {
   text-align: center;
 }
 
-/* line 130, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 130, ../sass/_main.sass */
 #sidebar-container img {
   border: #9f9f9f 1px solid;
 }
 
-/* line 137, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 137, ../sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -786,94 +981,94 @@ body {
   line-height: 70px;
 }
 
-/* line 143, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 143, ../sass/_main.sass */
 #copyright {
   font-size: 0.9em;
 }
 
-/* line 1, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 1, ../sass/_news.sass */
 .news-index {
   padding-bottom: 4em;
 }
-/* line 4, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 4, ../sass/_news.sass */
 .news-index .news-content {
   padding-bottom: 2em;
 }
-/* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 7, ../sass/_news.sass */
 .news-index article {
   border-bottom: 1px solid #617cbe;
   line-height: 1.5em;
   margin-top: 1.5em;
 }
-/* line 12, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 12, ../sass/_news.sass */
 .news-index article h1, .news-index article h2, .news-index article h3, .news-index article h4, .news-index article h5, .news-index article h6 {
   color: #617cbe;
   font-weight: bold;
   line-height: 1.5em;
 }
-/* line 16, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 16, ../sass/_news.sass */
 .news-index article h1 {
   font-size: 1.75em;
   margin: 0;
 }
-/* line 19, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 19, ../sass/_news.sass */
 .news-index article h2 {
   font-size: 1.5em;
   margin: 0;
 }
-/* line 22, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 22, ../sass/_news.sass */
 .news-index article h3 {
   font-size: 1.25em;
   margin: 0;
 }
-/* line 25, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 25, ../sass/_news.sass */
 .news-index article h4 {
   font-size: 1em;
   margin: 0;
 }
-/* line 28, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 28, ../sass/_news.sass */
 .news-index article ul {
   list-style-type: disc;
   padding-left: 2em;
 }
-/* line 31, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 31, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: circle;
   margin-bottom: 0px;
 }
-/* line 34, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 34, ../sass/_news.sass */
 .news-index article ul ul {
   list-style-type: square;
   margin-bottom: 0px;
 }
-/* line 37, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 37, ../sass/_news.sass */
 .news-index article ol {
   list-style-type: decimal;
   padding-left: 2em;
 }
-/* line 40, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 40, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-alpha;
   margin-bottom: 0px;
 }
-/* line 43, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 43, ../sass/_news.sass */
 .news-index article ol ol {
   list-style-type: lower-roman;
   margin-bottom: 0px;
 }
 
-/* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_news.sass */
+/* line 47, ../sass/_news.sass */
 .news-date {
   font-size: 0.9em;
 }
 
-/* line 1, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 1, ../sass/_schedule.sass */
 .schedule-index {
   margin-top: 1.5em;
   margin-bottom: 3em;
 }
 
-/* line 5, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 5, ../sass/_schedule.sass */
 .schedule-header {
   background: #7d8fd0;
   border-bottom: 2px solid #404361;
@@ -882,49 +1077,49 @@ body {
   line-height: 3.5em;
 }
 
-/* line 12, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 12, ../sass/_schedule.sass */
 .schedule-header-time {
   text-align: center;
 }
 
-/* line 15, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 15, ../sass/_schedule.sass */
 .schedule-event, .schedule-event-short {
   background: white;
   border-bottom: 2px dotted #c8c9d0;
 }
 
-/* line 20, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 20, ../sass/_schedule.sass */
 .schedule-event-short .schedule-info {
   color: #617cbe;
   font-size: 1.3em;
 }
 
-/* line 24, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 24, ../sass/_schedule.sass */
 .schedule-time {
   text-align: center;
   line-height: 3.8em;
 }
 
-/* line 27, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 27, ../sass/_schedule.sass */
 .schedule-info {
   border-left: 2px dotted #c8c9d0;
   line-height: 3em;
 }
-/* line 30, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 30, ../sass/_schedule.sass */
 .schedule-info h4, .schedule-info h5 {
   margin: 0.5em 0 0 0;
   line-height: 1.2em;
 }
-/* line 33, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 33, ../sass/_schedule.sass */
 .schedule-info h4 {
   font-size: 1.5em;
 }
-/* line 35, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 35, ../sass/_schedule.sass */
 .schedule-info h5 {
   font-size: 1em;
   padding-bottom: 1em;
 }
-/* line 38, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 38, ../sass/_schedule.sass */
 .schedule-info article {
   color: #617cbe;
   font-size: 0.85em;
@@ -932,7 +1127,7 @@ body {
   padding-bottom: 0.5em;
 }
 
-/* line 45, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 45, ../sass/_schedule.sass */
 .schedule-break-time {
   background: #e5e5ec;
   border-bottom: 2px dotted #c8c9d0;
@@ -941,56 +1136,56 @@ body {
   text-align: center;
   line-height: 2.6em;
 }
-/* line 54, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 54, ../sass/_schedule.sass */
 .schedule-break-time small {
   font-size: 0.6em;
   font-weight: normal;
   padding-left: 10px;
 }
-/* line 59, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 59, ../sass/_schedule.sass */
 .schedule-break-time .font-phpconf {
   font-size: 1.5em;
 }
 
-/* line 62, Z:/phpconf.tw/web/new-pages/2012/sass/_schedule.sass */
+/* line 62, ../sass/_schedule.sass */
 .schedule-break-time-last {
   border-bottom: 2px solid #404361;
 }
 
-/* line 1, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 1, ../sass/_speakers.sass */
 .speakers-index {
   padding-bottom: 3em;
 }
-/* line 3, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 3, ../sass/_speakers.sass */
 .speakers-index article {
   border-bottom: 1px solid #617cbe;
   padding-bottom: 1em;
 }
 
-/* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 7, ../sass/_speakers.sass */
 .speaker-title-container {
   padding: 1em 0;
 }
 
-/* line 9, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 9, ../sass/_speakers.sass */
 .speaker-name {
   font-size: 1.75em;
   font-weight: bold;
   line-height: 1.2em;
 }
 
-/* line 14, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 14, ../sass/_speakers.sass */
 .speaker-job-title {
   color: #617cbe;
   padding-left: 1em;
 }
 
-/* line 18, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 18, ../sass/_speakers.sass */
 .speaker-thumb {
   width: 120px;
   margin: 0 auto;
 }
-/* line 21, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 21, ../sass/_speakers.sass */
 .speaker-thumb img {
   background: white;
   border: 1px solid #cccccc;
@@ -1004,49 +1199,49 @@ body {
   padding: 7px;
 }
 
-/* line 31, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 31, ../sass/_speakers.sass */
 .socialIcons {
   padding: 5px 3px;
   width: 120px;
   margin: 0 auto;
 }
-/* line 35, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 35, ../sass/_speakers.sass */
 .socialIcons ul {
   margin: 0;
   padding: 0;
 }
-/* line 38, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 38, ../sass/_speakers.sass */
 .socialIcons li {
   float: left;
   padding: 3px;
   margin: 0;
 }
 
-/* line 43, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 43, ../sass/_speakers.sass */
 .speaker-description {
   line-height: 1.6em;
 }
 
-/* line 45, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 45, ../sass/_speakers.sass */
 .speaker-description-left {
   color: #617cbe;
   vertical-align: top;
   width: 40px;
 }
 
-/* line 49, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 49, ../sass/_speakers.sass */
 .speaker-description-right {
   border-left: 1px solid #617cbe;
   padding-left: 0.5em;
   vertical-align: top;
 }
 
-/* line 53, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 53, ../sass/_speakers.sass */
 .speaker-description-middle {
   line-height: 0.8em;
 }
 
-/* line 1, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 1, ../sass/_location.sass */
 .location-index {
   font-size: 0.9em;
   line-height: 1.5em;
@@ -1054,13 +1249,13 @@ body {
   padding-bottom: 3em;
 }
 
-/* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 7, ../sass/_location.sass */
 .google-map {
   padding: 2em 0;
   text-align: center;
 }
 
-/* line 10, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 10, ../sass/_location.sass */
 #map {
   border: 1px solid #cccccc;
   -webkit-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
@@ -1069,17 +1264,17 @@ body {
   padding: 1em;
 }
 
-/* line 14, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 14, ../sass/_location.sass */
 .google-map-link {
   line-height: 2em;
   text-align: right;
 }
-/* line 18, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 18, ../sass/_location.sass */
 .google-map-link a:active, .google-map-link a:hover, .google-map-link a:link, .google-map-link a:visited {
   color: #617cbe;
 }
 
-/* line 21, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 21, ../sass/_location.sass */
 .location-title {
   color: #617cbe;
   line-height: 1.5em;
@@ -1087,21 +1282,21 @@ body {
   width: 65px;
 }
 
-/* line 26, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 26, ../sass/_location.sass */
 .location-description {
   border-left: 1px solid #617cbe;
   padding-left: 0.5em;
   vertical-align: top;
 }
 
-/* line 31, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 31, ../sass/_location.sass */
 .google-map-hint {
   border-top: 1px solid #617cbe;
   border-bottom: 1px solid #617cbe;
   padding: 1.5em 0;
 }
 
-/* line 36, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 36, ../sass/_location.sass */
 .google-map-hint-left {
   color: #617cbe;
   line-height: 1.5em;
@@ -1109,14 +1304,14 @@ body {
   vertical-align: top;
   width: 106px;
 }
-/* line 42, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 42, ../sass/_location.sass */
 .google-map-hint-left .font-phpconf {
   color: black;
   font-size: 3em;
   padding-right: 0.6em;
 }
 
-/* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_location.sass */
+/* line 47, ../sass/_location.sass */
 .google-map-hint-right {
   border-left: 1px solid #617cbe;
   padding-left: 0.5em;
@@ -1124,284 +1319,284 @@ body {
   vertical-align: top;
 }
 
-/* line 1, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 1, ../sass/_about.sass */
 .staff-index {
   padding-bottom: 3em;
 }
-/* line 3, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 3, ../sass/_about.sass */
 .staff-index article {
   border-bottom: 1px solid #617cbe;
   padding-bottom: 1em;
 }
 
-/* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 7, ../sass/_about.sass */
 .staff-title-container {
   padding: 1.5em 0;
 }
 
-/* line 9, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 9, ../sass/_about.sass */
 .staff-title-left {
   padding-right: 0.6em;
 }
 
-/* line 11, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 11, ../sass/_about.sass */
 .staff-title-right {
   padding-left: 1em;
   border-left: 2px solid #617cbe;
 }
 
-/* line 14, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 14, ../sass/_about.sass */
 .staff-title-left, .staff-name {
   font-size: 1.6em;
 }
 
-/* line 16, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 16, ../sass/_about.sass */
 .staff-name {
   font-weight: bold;
 }
 
-/* line 18, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 18, ../sass/_about.sass */
 .staff-job-title {
   line-height: 2em;
   padding-left: 1em;
 }
 
-/* line 21, Z:/phpconf.tw/web/new-pages/2012/sass/_about.sass */
+/* line 21, ../sass/_about.sass */
 .staff-title-left, .staff-job-title {
   color: #617cbe;
 }
 
 @media screen and (min-width: 719px) {
-  /* line 5, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 5, ../sass/_responsive.sass */
   #past-editions-content, #header, #main, #header-logo-content, #footer-content {
     width: 720px;
   }
 
-  /* line 7, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 7, ../sass/_responsive.sass */
   #footer-navigation {
     width: 540px;
   }
 
-  /* line 9, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 9, ../sass/_responsive.sass */
   #copyright {
     width: 180px;
   }
 
-  /* line 11, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 11, ../sass/_responsive.sass */
   #content {
     width: 510px;
   }
 
-  /* line 13, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 13, ../sass/_responsive.sass */
   #sidebar {
     width: 210px;
   }
 
-  /* line 15, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 15, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 17, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 17, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 19, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 19, ../sass/_responsive.sass */
   #conference-title {
     width: 390px;
   }
 
-  /* line 21, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 21, ../sass/_responsive.sass */
   #conference-date {
     width: 330px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 25, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 25, ../sass/_responsive.sass */
   #header, #main, #past-editions-content, #footer-content {
     margin: 0 auto;
   }
 
-  /* line 27, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 27, ../sass/_responsive.sass */
   #header {
     padding-top: 20px;
   }
 
-  /* line 30, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 30, ../sass/_responsive.sass */
   #header-navigation li {
     padding-left: 1.6em;
   }
 
-  /* line 32, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 32, ../sass/_responsive.sass */
   #footer-navigation {
     font-size: 0.85em;
   }
-  /* line 35, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 35, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 1.8em;
   }
 
-  /* line 37, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 37, ../sass/_responsive.sass */
   #main {
     margin-top: 50px;
   }
 
-  /* line 39, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 39, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.8em;
     width: 100%;
   }
 
-  /* line 44, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 44, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1em;
   }
 
-  /* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 47, ../sass/_responsive.sass */
   .schedule-index {
     padding: 0 1em;
   }
 
-  /* line 50, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 50, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 138px;
     float: left;
   }
 
-  /* line 53, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 53, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     width: 288px;
     float: right;
     padding-left: 16px;
   }
 
-  /* line 58, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 58, ../sass/_responsive.sass */
   .speaker-info {
     width: 120px;
     float: left;
   }
 
-  /* line 61, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 61, ../sass/_responsive.sass */
   .speaker-description {
     width: 330px;
     float: left;
     padding-left: 18px;
   }
 
-  /* line 65, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 65, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 1.6em;
   }
 
-  /* line 68, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 68, ../sass/_responsive.sass */
   #map {
     width: 438px;
     height: 360px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 73, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 73, ../sass/_responsive.sass */
   #header-logo {
     background: url("../images/layout/mascot.png") no-repeat 10px 100%;
   }
 
-  /* line 76, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 76, ../sass/_responsive.sass */
   #past-editions-content, #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 78, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 78, ../sass/_responsive.sass */
   #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 80, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 80, ../sass/_responsive.sass */
   #sidebar, #copyright {
     width: 240px;
   }
 
-  /* line 82, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 82, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 84, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 84, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 86, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 86, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 88, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 88, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 93, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 93, ../sass/_responsive.sass */
   #header-navigation li {
     padding-left: 2em;
   }
 
-  /* line 96, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 96, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 3em;
   }
 
-  /* line 98, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 98, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.85em;
     width: 92%;
   }
 
-  /* line 103, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 103, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1.2em;
   }
 
-  /* line 106, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 106, ../sass/_responsive.sass */
   .schedule-index {
     padding: 0 1.2em;
   }
 
-  /* line 109, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 109, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 160px;
   }
 
-  /* line 111, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 111, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     width: 464px;
     padding-left: 16px;
   }
 
-  /* line 115, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 115, ../sass/_responsive.sass */
   .speaker-info {
     width: 160px;
   }
 
-  /* line 117, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 117, ../sass/_responsive.sass */
   .speaker-description {
     width: 488px;
   }
 
-  /* line 119, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 119, ../sass/_responsive.sass */
   .speaker-name, .speaker-job-title, .staff-name, .staff-job-title {
     float: left;
   }
 
-  /* line 121, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 121, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 2.4em;
   }
 
-  /* line 124, Z:/phpconf.tw/web/new-pages/2012/sass/_responsive.sass */
+  /* line 124, ../sass/_responsive.sass */
   #map {
     width: 640px;
     height: 480px;
