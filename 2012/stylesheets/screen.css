@@ -826,7 +826,7 @@ a:active, a:hover, a:link, a:visited {
 /* line 11, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 body {
   background: #fdfbfb url(../images/layout/bg.png) repeat-x center 40px;
-  font-family: "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "XinGothic", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
