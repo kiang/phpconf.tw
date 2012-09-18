@@ -1231,8 +1231,8 @@ body {
 }
 /* line 44, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
 .socialIcons img:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
 
 /* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
