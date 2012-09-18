@@ -920,41 +920,49 @@ body {
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
+/* line 90, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+#header-navigation a:hover {
+  text-decoration: underline;
+}
 
-/* line 91, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 93, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 94, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 96, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
+/* line 98, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+#footer-navigation a:hover {
+  text-decoration: underline;
+}
 
-/* line 97, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 101, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #registration-link {
   color: #70a3b8;
 }
 
-/* line 104, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 108, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #content-container {
   padding: 0 1em;
 }
 
-/* line 107, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 111, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #content-title-container {
   border-bottom: 1px solid #617cbe;
   padding-left: 0.5em;
   padding-bottom: 0.8em;
 }
 
-/* line 111, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 115, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #content-title {
   color: #404361;
   font-size: 1.6em;
   font-weight: bold;
 }
 
-/* line 121, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 125, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #sidebar-container {
   background: url("../images/bg_sponser.png") repeat;
   border: 1px solid #cccccc;
@@ -968,12 +976,12 @@ body {
   text-align: center;
 }
 
-/* line 130, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 134, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #sidebar-container img {
   border: #9f9f9f 1px solid;
 }
 
-/* line 137, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 141, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -981,7 +989,7 @@ body {
   line-height: 70px;
 }
 
-/* line 143, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
+/* line 147, Z:/phpconf.tw/web/new-pages/2012/sass/_main.sass */
 #copyright {
   font-size: 0.9em;
 }
@@ -1216,27 +1224,37 @@ body {
   padding: 3px;
   margin: 0;
 }
+/* line 42, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+.socialIcons img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 44, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+.socialIcons img:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
 
-/* line 43, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 47, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
 .speaker-description {
   line-height: 1.6em;
 }
 
-/* line 45, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 49, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
 .speaker-description-left {
   color: #617cbe;
   vertical-align: top;
   width: 40px;
 }
 
-/* line 49, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 53, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
 .speaker-description-right {
   border-left: 1px solid #617cbe;
   padding-left: 0.5em;
   vertical-align: top;
 }
 
-/* line 53, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
+/* line 57, Z:/phpconf.tw/web/new-pages/2012/sass/_speakers.sass */
 .speaker-description-middle {
   line-height: 0.8em;
 }
