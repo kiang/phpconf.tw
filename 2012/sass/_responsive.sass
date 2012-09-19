@@ -1,17 +1,81 @@
 @mixin grid($columns, $unitWidth)
   width: $columns * $unitWidth
 
+@media screen and (min-width: 319px)
+  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+    @include grid(4, 80px)
+  #footer-navigation
+    display: none
+  #copyright
+    width: 290px
+    float: left
+  #content, #sidebar
+    @include grid(4, 80px)
+  #header, #main, #past-editions-content, #footer-content
+    margin: 0 auto
+
+  #sponsors
+    padding-left: 20px
+    li
+      width: 130px
+      padding-right: 20px
+      padding-bottom: 0.5em
+    img
+      width: 130px
+
+  .speaker-job-title
+    line-height: 1.8em
+
+@media screen and (min-width: 479px)
+  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+    @include grid(4, 120px)
+  #footer-navigation
+    display: none
+  #copyright
+    width: 440px
+    float: left
+  #content, #sidebar
+    @include grid(4, 120px)
+
+  #sponsors
+    padding-left: 30px
+    li
+      width: 195px
+      padding-right: 30px
+      padding-bottom: 1em
+    img
+      width: auto
+
 @media screen and (min-width: 719px)
   #past-editions-content, #header, #main, #header-logo-content, #footer-content
     @include grid(12, 60px)
   #footer-navigation
     @include grid(9, 60px)
+    display: block
   #copyright
     @include grid(3, 60px)
+    float: right
   #content
     @include grid(8.5, 60px)
   #sidebar
     @include grid(3.5, 60px)
+  #sidebar-container
+    background: url('../images/bg_sponser.png') repeat
+    border: 1px solid #CCC
+    +box-shadow(rgba(43, 39, 40, .4) 0 0 8px)
+    color: #696A7B
+    font-weight: bold
+    margin: 0 auto
+    padding: 2em 0
+    text-align: center
+  #sponsors
+    padding-left: 0
+    li
+      width: 100%
+      padding: 0 0 1em 0
+      text-align: center
+    img
+      width: auto
   #content, #conference-title, #footer-navigation
     float: left
   #header-logo-content, #conference-date, #sidebar, #copyright
@@ -22,8 +86,6 @@
     @include grid(5.5, 60px)
     font-size: 1.3em
     line-height: 2.28em
-  #header, #main, #past-editions-content, #footer-content
-    margin: 0 auto
   #header
     padding-top: 20px
   #header-navigation
@@ -62,8 +124,6 @@
     @include grid(5.5, 60px)
     float: left
     padding-left: 18px
-  .speaker-job-title
-    line-height: 1.6em
 
   #map
     @include grid(7.3, 60px)
@@ -116,10 +176,11 @@
     @include grid(2, 80px)
   .speaker-description
     @include grid(6.1, 80px)
-  .speaker-name, .speaker-job-title, .staff-name, .staff-job-title
+  .speaker-name, .speaker-job-title
     float: left
   .speaker-job-title
     line-height: 2.4em
+    padding-left: 1em
 
   #map
     @include grid(8, 80px)
