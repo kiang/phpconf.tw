@@ -1192,73 +1192,26 @@ body {
   color: #617cbe;
 }
 
-/* line 24, ../sass/_speakers.sass */
-.speaker-thumb {
-  width: 120px;
-  margin: 0 auto;
-}
-/* line 27, ../sass/_speakers.sass */
-.speaker-thumb img {
-  background: white;
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
-  -moz-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
-  box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-  padding: 7px;
-}
-
-/* line 37, ../sass/_speakers.sass */
-.socialIcons {
-  padding: 5px 3px;
-  width: 120px;
-  margin: 0 auto;
-}
-/* line 41, ../sass/_speakers.sass */
-.socialIcons ul {
-  margin: 0;
-  padding: 0;
-}
-/* line 44, ../sass/_speakers.sass */
-.socialIcons li {
-  float: left;
-  padding: 3px;
-  margin: 0;
-}
-/* line 48, ../sass/_speakers.sass */
-.socialIcons img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
-/* line 50, ../sass/_speakers.sass */
-.socialIcons img:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-
-/* line 53, ../sass/_speakers.sass */
+/* line 52, ../sass/_speakers.sass */
 .speaker-description {
   line-height: 1.6em;
 }
 
-/* line 55, ../sass/_speakers.sass */
+/* line 54, ../sass/_speakers.sass */
 .speaker-description-left {
   color: #617cbe;
   vertical-align: top;
   width: 40px;
 }
 
-/* line 59, ../sass/_speakers.sass */
+/* line 58, ../sass/_speakers.sass */
 .speaker-description-right {
   border-left: 1px solid #617cbe;
   padding-left: 0.5em;
   vertical-align: top;
 }
 
-/* line 63, ../sass/_speakers.sass */
+/* line 62, ../sass/_speakers.sass */
 .speaker-description-middle {
   line-height: 0.8em;
 }
