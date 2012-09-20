@@ -2,7 +2,17 @@
   width: $columns * $unitWidth
 
 @media screen and (min-width: 319px)
-  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+  #conference-date
+    color: #696A7B
+    line-height: 0.3em
+    text-align: right
+    padding-right: 2em
+  #conference-slogan
+    display: none
+  #conference-title
+    text-align: center
+
+  #past-editions-content, #header, #main, #footer-content
     @include grid(4, 80px)
   #footer-navigation
     display: none
@@ -23,10 +33,26 @@
     img
       width: 130px
 
+  .speaker-title-container
+    float: right
+    width: 160px
   .speaker-job-title
     line-height: 1.8em
+  .speaker-picture-container
+    float: left
+    width: 160px
+  .socialIcons
+    display: none
+  .speaker-description
+    clear: both
+
+  .speakers-index, .staff-index
+    padding-bottom: 1em
 
 @media screen and (min-width: 479px)
+  #conference-date
+    padding-right: 3.5em
+
   #past-editions-content, #header, #main, #header-logo-content, #footer-content
     @include grid(4, 120px)
   #footer-navigation
@@ -45,8 +71,23 @@
       padding-bottom: 1em
     img
       width: auto
+  .speaker-title-container
+    width: 288px
+  .speaker-picture-container
+    padding: 1em 0
+    width: 160px
+  .speaker-description
+    margin: 0 auto
+    width: 420px
 
 @media screen and (min-width: 719px)
+  #conference-slogan
+    color: #617CBE
+    display: block
+    font-size:  1.9em
+    letter-spacing: 0.059em
+    text-align: right
+
   #past-editions-content, #header, #main, #header-logo-content, #footer-content
     @include grid(12, 60px)
   #footer-navigation
@@ -82,13 +123,17 @@
     float: right
   #conference-title
     @include grid(6.5, 60px)
+    text-align: left
   #conference-date
     @include grid(5.5, 60px)
     font-size: 1.3em
     line-height: 2.28em
+    text-align: left
+    padding-right: 0
   #header
     padding-top: 20px
   #header-navigation
+    float: right
     li
       padding-left: 1.6em
   #footer-navigation
@@ -117,13 +162,24 @@
     float: right
     padding-left: 16px
 
+  .speaker-title-container
+    float: none
   .speaker-info
     @include grid(2, 60px)
     float: left
   .speaker-description
     @include grid(5.5, 60px)
-    float: left
-    padding-left: 18px
+    float: right
+    clear: none
+  .speaker-picture-container
+    padding: 0
+    width: 148px
+  .socialIcons
+    display: block
+    padding: 8px 3px
+
+  .speakers-index, .staff-index
+    padding-bottom: 3em
 
   #map
     @include grid(7.3, 60px)
@@ -175,12 +231,14 @@
   .speaker-info
     @include grid(2, 80px)
   .speaker-description
-    @include grid(6.1, 80px)
+    width: 520px
   .speaker-name, .speaker-job-title
     float: left
   .speaker-job-title
     line-height: 2.4em
     padding-left: 1em
+  .speaker-picture-container
+    width: 168px
 
   #map
     @include grid(8, 80px)
