@@ -6,7 +6,7 @@
     color: #696A7B
     line-height: 0.3em
     text-align: right
-    padding-right: 2em
+    padding-right: 1em
   #conference-slogan
     display: none
   #conference-title
@@ -14,6 +14,38 @@
 
   #header, #main, #footer-content
     @include grid(4, 80px)
+
+  #header-logo-content
+    padding-bottom: 1.5em
+
+  //========== title block start ==========
+  #conference-title
+    color: #70A3B7
+    font:
+      family: 'Bauhs', sans-serif
+      size: 4.6em
+
+  #conference-subtitle
+    margin-top: -0.32em
+
+  .taiwan-letter, .conference-year
+    font:
+      family: 'Gothic', sans-serif
+      size: 0.6em
+
+  .conference-year
+    margin-left: 0.2em
+
+  .taiwan-first-letter, .taiwan-letter, .title-color2
+    color: #757575
+
+  .taiwan-first-letter
+    margin-left: -0.79em
+
+  .taiwan-letter
+    margin-left: -0.2em
+  //========== title block end ==========
+
   #past-editions-content
     margin: 0 auto
     width: 304px
@@ -24,8 +56,16 @@
     float: left
   #content, #sidebar
     @include grid(4, 80px)
-  #header, #main, #past-editions, #footer-content
+  #header, #main
     margin: 0 auto
+
+  #header-navigation
+    ul
+      padding-left: 20px
+    li
+      border-left: 2px solid #617CBE
+      padding: 0.5em 0 0.5em 5px
+      width: 93px
 
   #sponsors
     padding-left: 20px
@@ -36,14 +76,10 @@
     img
       width: 130px
 
-  .speaker-title-container
-    float: right
-    width: 160px
+  .speaker-picture-container
+    padding: 0.5em 0 0.8em 0
   .speaker-job-title
     line-height: 1.8em
-  .speaker-picture-container
-    float: left
-    width: 160px
   .socialIcons
     display: none
   .speaker-description
@@ -58,6 +94,35 @@
 
   #header, #main, #header-logo-content, #footer-content
     @include grid(4, 120px)
+
+  //========== title block start ==========
+  #conference-title
+    color: #70A3B7
+    font:
+      family: 'Bauhs', sans-serif
+      size: 6em
+
+  #conference-subtitle
+    margin-top: -0.32em
+
+  .taiwan-letter, .conference-year
+    font:
+      family: 'Gothic', sans-serif
+      size: 0.6em
+
+  .conference-year
+    margin-left: 0.2em
+
+  .taiwan-first-letter, .taiwan-letter, .title-color2
+    color: #757575
+
+  .taiwan-first-letter
+    margin-left: -0.79em
+
+  .taiwan-letter
+    margin-left: -0.2em
+  //========== title block end ==========
+
   #past-editions-content
     width: 464px
   #footer-navigation
@@ -68,6 +133,13 @@
   #content, #sidebar
     @include grid(4, 120px)
 
+  #header-navigation
+    ul
+      padding: 0 30px 0 60px
+    li
+      padding: 0.5em 0 0.5em 5px
+      width: 123px
+
   #sponsors
     padding-left: 30px
     li
@@ -77,8 +149,11 @@
     img
       width: auto
   .speaker-title-container
+    float: right
+    padding: 1em 0
     width: 288px
   .speaker-picture-container
+    float: left
     padding: 1em 0
     width: 160px
   .speaker-description
@@ -95,6 +170,17 @@
 
   #header, #main, #header-logo-content, #footer-content
     @include grid(12, 60px)
+  #header-logo-content
+    padding-bottom: 0
+
+  #header-navigation
+    ul
+      padding-left: 0px
+    li
+      border-left: 0
+      padding: 0
+      width: auto
+
   #past-editions-content
     width: 704px
   #footer-navigation
@@ -143,6 +229,7 @@
     float: right
     li
       padding-left: 1.6em
+      width:  auto
   #footer-navigation
     font:
       size: 0.85em
