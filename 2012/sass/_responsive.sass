@@ -92,6 +92,16 @@
     width: 250px
     height: 320px
 
+  .schedule-header
+    display: none
+  .schedule-time, .schedule-header-time
+    text-align: left
+    line-height: 2em
+    padding-left: 1em
+  .schedule-info, .schedule-header-info
+    line-height: 2em
+    padding: 0 1em
+
 @media screen and (min-width: 479px)
   #conference-date
     padding-right: 3.5em
@@ -253,16 +263,24 @@
     article
       padding: 0 1em
 
-  .schedule-index
-    padding: 0 1em
-
+  .schedule-header-mobile
+    display: none
+  .schedule-header
+    display: block
   .schedule-time, .schedule-header-time
-    @include grid(2.3, 60px)
+    width: 138px
     float: left
+    text-align: center
   .schedule-info, .schedule-header-info
-    @include grid(4.8, 60px)
+    width: 288px
     float: right
-    padding-left: 16px
+  .schedule-time
+    line-height: 3.8em
+    padding-left: 0
+  .schedule-info
+    border-left: 2px dotted #C8C9D0
+    line-height: 3em
+    padding: 0 0 0 16px
 
   .speaker-title-container
     float: none
