@@ -94,13 +94,13 @@
 
   .schedule-header
     display: none
+  .schedule-time, .schedule-header-time, .schedule-info, .schedule-header-info
+    line-height: 2em
   .schedule-time, .schedule-header-time
     text-align: left
-    line-height: 2em
     padding-left: 1em
   .schedule-info, .schedule-header-info
-    line-height: 2em
-    padding: 0 1em
+    padding: 0 16px
 
 @media screen and (min-width: 479px)
   #conference-date
@@ -267,20 +267,18 @@
     display: none
   .schedule-header
     display: block
+  .schedule-time, .schedule-header-time, .schedule-info, .schedule-header-info
+    line-height: 3.8em
   .schedule-time, .schedule-header-time
+    text-align: center
     width: 138px
     float: left
-    text-align: center
-  .schedule-info, .schedule-header-info
-    width: 288px
-    float: right
-  .schedule-time
-    line-height: 3.8em
     padding-left: 0
+  .schedule-info, .schedule-header-info
+    width: 272px
+    float: right
   .schedule-info
     border-left: 2px dotted #C8C9D0
-    line-height: 3em
-    padding: 0 0 0 16px
 
   .speaker-title-container
     float: none
@@ -300,6 +298,10 @@
 
   .news-index, .schedule-index, .speakers-index, .location-index, .staff-index
     padding-bottom: 3em
+
+  .schedule-index
+    padding-left: 1em
+    padding-right: 1em
 
   #map
     @include grid(7.3, 60px)
@@ -341,14 +343,10 @@
     article
       padding: 0 1.2em
 
-  .schedule-index
-    padding: 0 1.2em
-
   .schedule-time, .schedule-header-time
     @include grid(2.0, 80px)
   .schedule-info, .schedule-header-info
-    @include grid(5.8, 80px)
-    padding-left: 16px
+    @include grid(5.6, 80px)
 
   .speaker-info
     @include grid(2, 80px)
@@ -361,6 +359,10 @@
     padding-left: 1em
   .speaker-picture-container
     width: 168px
+
+  .schedule-index
+    padding-left: 1.2em
+    padding-right: 1.2em
 
   #map
     @include grid(8, 80px)
