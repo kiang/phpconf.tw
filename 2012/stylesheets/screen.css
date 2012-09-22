@@ -1435,7 +1435,7 @@ body {
   }
 
   /* line 88, ../sass/_responsive.sass */
-  .speakers-index, .staff-index {
+  .news-index, .schedule-index, .speakers-index, .location-index, .staff-index {
     padding-bottom: 1em;
   }
 }
@@ -1755,7 +1755,7 @@ body {
   }
 
   /* line 275, ../sass/_responsive.sass */
-  .speakers-index, .staff-index {
+  .news-index, .schedule-index, .speakers-index, .location-index, .staff-index {
     padding-bottom: 3em;
   }
 
