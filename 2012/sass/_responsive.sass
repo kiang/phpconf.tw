@@ -12,8 +12,8 @@
   #conference-title
     text-align: center
 
-  #past-editions-content, #header, #main, #footer-content
-    width: 100%
+  #past-editions, #past-editions-content, #header, #main, #footer, #footer-content
+    @include grid(4, 80px)
   #footer-navigation
     display: none
   #copyright
@@ -53,6 +53,8 @@
   #conference-date
     padding-right: 3.5em
 
+  #past-editions, #past-editions-content, #header, #main, #header-logo-content, #footer, #footer-content
+    @include grid(4, 120px)
   #footer-navigation
     display: none
   #copyright
