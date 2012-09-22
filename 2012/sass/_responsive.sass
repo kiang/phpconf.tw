@@ -12,8 +12,11 @@
   #conference-title
     text-align: center
 
-  #past-editions, #past-editions-content, #header, #main, #footer, #footer-content
+  #header, #main, #footer-content
     @include grid(4, 80px)
+  #past-editions-content
+    margin: 0 auto
+    width: 304px
   #footer-navigation
     display: none
   #copyright
@@ -21,7 +24,7 @@
     float: left
   #content, #sidebar
     @include grid(4, 80px)
-  #header, #main, #past-editions-content, #footer-content
+  #header, #main, #past-editions, #footer-content
     margin: 0 auto
 
   #sponsors
@@ -53,8 +56,10 @@
   #conference-date
     padding-right: 3.5em
 
-  #past-editions, #past-editions-content, #header, #main, #header-logo-content, #footer, #footer-content
+  #header, #main, #header-logo-content, #footer-content
     @include grid(4, 120px)
+  #past-editions-content
+    width: 464px
   #footer-navigation
     display: none
   #copyright
@@ -88,10 +93,10 @@
     letter-spacing: 0.059em
     text-align: right
 
-  #past-editions, #footer
-    width: auto
-  #past-editions-content, #header, #main, #header-logo-content, #footer-content
+  #header, #main, #header-logo-content, #footer-content
     @include grid(12, 60px)
+  #past-editions-content
+    width: 704px
   #footer-navigation
     @include grid(9, 60px)
     display: block
@@ -191,8 +196,10 @@
   #header-logo
     background: url('../images/layout/mascot.png') no-repeat 10px 100%
 
-  #past-editions-content, #header, #main, #footer-content
+  #header, #main, #footer-content
     @include grid(12, 80px)
+  #past-editions-content
+    width: 946px
   #content, #footer-navigation, #header-logo-content
     @include grid(9, 80px)
   #sidebar, #copyright

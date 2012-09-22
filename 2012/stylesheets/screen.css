@@ -822,7 +822,7 @@ body {
   font-size: 0.9em;
   height: 40px;
   line-height: 40px;
-  padding-right: 1em;
+  padding-right: 16px;
   text-align: right;
 }
 /* line 38, ../sass/_main.sass */
@@ -1356,139 +1356,150 @@ body {
   }
 
   /* line 15, ../sass/_responsive.sass */
-  #past-editions, #past-editions-content, #header, #main, #footer, #footer-content {
+  #header, #main, #footer-content {
     width: 320px;
   }
 
   /* line 17, ../sass/_responsive.sass */
+  #past-editions-content {
+    margin: 0 auto;
+    width: 304px;
+  }
+
+  /* line 20, ../sass/_responsive.sass */
   #footer-navigation {
     display: none;
   }
 
-  /* line 19, ../sass/_responsive.sass */
+  /* line 22, ../sass/_responsive.sass */
   #copyright {
     width: 290px;
     float: left;
   }
 
-  /* line 22, ../sass/_responsive.sass */
+  /* line 25, ../sass/_responsive.sass */
   #content, #sidebar {
     width: 320px;
   }
 
-  /* line 24, ../sass/_responsive.sass */
-  #header, #main, #past-editions-content, #footer-content {
+  /* line 27, ../sass/_responsive.sass */
+  #header, #main, #past-editions, #footer-content {
     margin: 0 auto;
   }
 
-  /* line 27, ../sass/_responsive.sass */
+  /* line 30, ../sass/_responsive.sass */
   #sponsors {
     padding-left: 20px;
   }
-  /* line 29, ../sass/_responsive.sass */
+  /* line 32, ../sass/_responsive.sass */
   #sponsors li {
     width: 130px;
     padding-right: 20px;
     padding-bottom: 0.5em;
   }
-  /* line 33, ../sass/_responsive.sass */
+  /* line 36, ../sass/_responsive.sass */
   #sponsors img {
     width: 130px;
   }
 
-  /* line 36, ../sass/_responsive.sass */
+  /* line 39, ../sass/_responsive.sass */
   .speaker-title-container {
     float: right;
     width: 160px;
   }
 
-  /* line 39, ../sass/_responsive.sass */
+  /* line 42, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 1.8em;
   }
 
-  /* line 41, ../sass/_responsive.sass */
+  /* line 44, ../sass/_responsive.sass */
   .speaker-picture-container {
     float: left;
     width: 160px;
   }
 
-  /* line 44, ../sass/_responsive.sass */
+  /* line 47, ../sass/_responsive.sass */
   .socialIcons {
     display: none;
   }
 
-  /* line 46, ../sass/_responsive.sass */
+  /* line 49, ../sass/_responsive.sass */
   .speaker-description {
     clear: both;
   }
 
-  /* line 49, ../sass/_responsive.sass */
+  /* line 52, ../sass/_responsive.sass */
   .speakers-index, .staff-index {
     padding-bottom: 1em;
   }
 }
 @media screen and (min-width: 479px) {
-  /* line 53, ../sass/_responsive.sass */
+  /* line 56, ../sass/_responsive.sass */
   #conference-date {
     padding-right: 3.5em;
   }
 
-  /* line 56, ../sass/_responsive.sass */
-  #past-editions, #past-editions-content, #header, #main, #header-logo-content, #footer, #footer-content {
+  /* line 59, ../sass/_responsive.sass */
+  #header, #main, #header-logo-content, #footer-content {
     width: 480px;
   }
 
-  /* line 58, ../sass/_responsive.sass */
+  /* line 61, ../sass/_responsive.sass */
+  #past-editions-content {
+    width: 464px;
+  }
+
+  /* line 63, ../sass/_responsive.sass */
   #footer-navigation {
     display: none;
   }
 
-  /* line 60, ../sass/_responsive.sass */
+  /* line 65, ../sass/_responsive.sass */
   #copyright {
     width: 440px;
     float: left;
   }
 
-  /* line 63, ../sass/_responsive.sass */
+  /* line 68, ../sass/_responsive.sass */
   #content, #sidebar {
     width: 480px;
   }
 
-  /* line 66, ../sass/_responsive.sass */
+  /* line 71, ../sass/_responsive.sass */
   #sponsors {
     padding-left: 30px;
   }
-  /* line 68, ../sass/_responsive.sass */
+  /* line 73, ../sass/_responsive.sass */
   #sponsors li {
     width: 195px;
     padding-right: 30px;
     padding-bottom: 1em;
   }
-  /* line 72, ../sass/_responsive.sass */
+  /* line 77, ../sass/_responsive.sass */
   #sponsors img {
     width: auto;
   }
 
-  /* line 74, ../sass/_responsive.sass */
+  /* line 79, ../sass/_responsive.sass */
   .speaker-title-container {
     width: 288px;
   }
 
-  /* line 76, ../sass/_responsive.sass */
+  /* line 81, ../sass/_responsive.sass */
   .speaker-picture-container {
     padding: 1em 0;
     width: 160px;
   }
 
-  /* line 79, ../sass/_responsive.sass */
+  /* line 84, ../sass/_responsive.sass */
   .speaker-description {
     margin: 0 auto;
     width: 420px;
   }
 }
 @media screen and (min-width: 719px) {
-  /* line 84, ../sass/_responsive.sass */
+  /* line 89, ../sass/_responsive.sass */
   #conference-slogan {
     color: #617cbe;
     display: block;
@@ -1497,39 +1508,39 @@ body {
     text-align: right;
   }
 
-  /* line 91, ../sass/_responsive.sass */
-  #past-editions, #footer {
-    width: auto;
-  }
-
-  /* line 93, ../sass/_responsive.sass */
-  #past-editions-content, #header, #main, #header-logo-content, #footer-content {
+  /* line 96, ../sass/_responsive.sass */
+  #header, #main, #header-logo-content, #footer-content {
     width: 720px;
   }
 
-  /* line 95, ../sass/_responsive.sass */
+  /* line 98, ../sass/_responsive.sass */
+  #past-editions-content {
+    width: 704px;
+  }
+
+  /* line 100, ../sass/_responsive.sass */
   #footer-navigation {
     width: 540px;
     display: block;
   }
 
-  /* line 98, ../sass/_responsive.sass */
+  /* line 103, ../sass/_responsive.sass */
   #copyright {
     width: 180px;
     float: right;
   }
 
-  /* line 101, ../sass/_responsive.sass */
+  /* line 106, ../sass/_responsive.sass */
   #content {
     width: 510px;
   }
 
-  /* line 103, ../sass/_responsive.sass */
+  /* line 108, ../sass/_responsive.sass */
   #sidebar {
     width: 210px;
   }
 
-  /* line 105, ../sass/_responsive.sass */
+  /* line 110, ../sass/_responsive.sass */
   #sidebar-container {
     background: url("../images/bg_sponser.png") repeat;
     border: 1px solid #cccccc;
@@ -1543,38 +1554,38 @@ body {
     text-align: center;
   }
 
-  /* line 114, ../sass/_responsive.sass */
+  /* line 119, ../sass/_responsive.sass */
   #sponsors {
     padding-left: 0;
   }
-  /* line 116, ../sass/_responsive.sass */
+  /* line 121, ../sass/_responsive.sass */
   #sponsors li {
     width: 100%;
     padding: 0 0 1em 0;
     text-align: center;
   }
-  /* line 120, ../sass/_responsive.sass */
+  /* line 125, ../sass/_responsive.sass */
   #sponsors img {
     width: auto;
   }
 
-  /* line 122, ../sass/_responsive.sass */
+  /* line 127, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 124, ../sass/_responsive.sass */
+  /* line 129, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 126, ../sass/_responsive.sass */
+  /* line 131, ../sass/_responsive.sass */
   #conference-title {
     width: 390px;
     text-align: left;
   }
 
-  /* line 129, ../sass/_responsive.sass */
+  /* line 134, ../sass/_responsive.sass */
   #conference-date {
     width: 330px;
     font-size: 1.3em;
@@ -1583,211 +1594,216 @@ body {
     padding-right: 0;
   }
 
-  /* line 135, ../sass/_responsive.sass */
+  /* line 140, ../sass/_responsive.sass */
   #header {
     padding-top: 20px;
   }
 
-  /* line 137, ../sass/_responsive.sass */
+  /* line 142, ../sass/_responsive.sass */
   #header-navigation {
     float: right;
   }
-  /* line 139, ../sass/_responsive.sass */
+  /* line 144, ../sass/_responsive.sass */
   #header-navigation li {
     padding-left: 1.6em;
   }
 
-  /* line 141, ../sass/_responsive.sass */
+  /* line 146, ../sass/_responsive.sass */
   #footer-navigation {
     font-size: 0.85em;
   }
-  /* line 144, ../sass/_responsive.sass */
+  /* line 149, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 1.8em;
   }
 
-  /* line 146, ../sass/_responsive.sass */
+  /* line 151, ../sass/_responsive.sass */
   #main {
     margin-top: 50px;
   }
 
-  /* line 148, ../sass/_responsive.sass */
+  /* line 153, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.8em;
     width: 100%;
   }
 
-  /* line 153, ../sass/_responsive.sass */
+  /* line 158, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1em;
   }
 
-  /* line 156, ../sass/_responsive.sass */
+  /* line 161, ../sass/_responsive.sass */
   .schedule-index {
     padding: 0 1em;
   }
 
-  /* line 159, ../sass/_responsive.sass */
+  /* line 164, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 138px;
     float: left;
   }
 
-  /* line 162, ../sass/_responsive.sass */
+  /* line 167, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     width: 288px;
     float: right;
     padding-left: 16px;
   }
 
-  /* line 167, ../sass/_responsive.sass */
+  /* line 172, ../sass/_responsive.sass */
   .speaker-title-container {
     float: none;
   }
 
-  /* line 169, ../sass/_responsive.sass */
+  /* line 174, ../sass/_responsive.sass */
   .speaker-info {
     width: 120px;
     float: left;
   }
 
-  /* line 172, ../sass/_responsive.sass */
+  /* line 177, ../sass/_responsive.sass */
   .speaker-description {
     width: 330px;
     float: right;
     clear: none;
   }
 
-  /* line 176, ../sass/_responsive.sass */
+  /* line 181, ../sass/_responsive.sass */
   .speaker-picture-container {
     padding: 0;
     width: 148px;
   }
 
-  /* line 179, ../sass/_responsive.sass */
+  /* line 184, ../sass/_responsive.sass */
   .socialIcons {
     display: block;
     padding: 8px 3px;
   }
 
-  /* line 183, ../sass/_responsive.sass */
+  /* line 188, ../sass/_responsive.sass */
   .speakers-index, .staff-index {
     padding-bottom: 3em;
   }
 
-  /* line 186, ../sass/_responsive.sass */
+  /* line 191, ../sass/_responsive.sass */
   #map {
     width: 438px;
     height: 360px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 191, ../sass/_responsive.sass */
+  /* line 196, ../sass/_responsive.sass */
   #header-logo {
     background: url("../images/layout/mascot.png") no-repeat 10px 100%;
   }
 
-  /* line 194, ../sass/_responsive.sass */
-  #past-editions-content, #header, #main, #footer-content {
+  /* line 199, ../sass/_responsive.sass */
+  #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 196, ../sass/_responsive.sass */
+  /* line 201, ../sass/_responsive.sass */
+  #past-editions-content {
+    width: 946px;
+  }
+
+  /* line 203, ../sass/_responsive.sass */
   #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 198, ../sass/_responsive.sass */
+  /* line 205, ../sass/_responsive.sass */
   #sidebar, #copyright {
     width: 240px;
   }
 
-  /* line 200, ../sass/_responsive.sass */
+  /* line 207, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 202, ../sass/_responsive.sass */
+  /* line 209, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 204, ../sass/_responsive.sass */
+  /* line 211, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 206, ../sass/_responsive.sass */
+  /* line 213, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 211, ../sass/_responsive.sass */
+  /* line 218, ../sass/_responsive.sass */
   #header-navigation li {
     padding-left: 2em;
   }
 
-  /* line 214, ../sass/_responsive.sass */
+  /* line 221, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 3em;
   }
 
-  /* line 216, ../sass/_responsive.sass */
+  /* line 223, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.85em;
     width: 92%;
   }
 
-  /* line 221, ../sass/_responsive.sass */
+  /* line 228, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1.2em;
   }
 
-  /* line 224, ../sass/_responsive.sass */
+  /* line 231, ../sass/_responsive.sass */
   .schedule-index {
     padding: 0 1.2em;
   }
 
-  /* line 227, ../sass/_responsive.sass */
+  /* line 234, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 160px;
   }
 
-  /* line 229, ../sass/_responsive.sass */
+  /* line 236, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     width: 464px;
     padding-left: 16px;
   }
 
-  /* line 233, ../sass/_responsive.sass */
+  /* line 240, ../sass/_responsive.sass */
   .speaker-info {
     width: 160px;
   }
 
-  /* line 235, ../sass/_responsive.sass */
+  /* line 242, ../sass/_responsive.sass */
   .speaker-description {
     width: 520px;
   }
 
-  /* line 237, ../sass/_responsive.sass */
+  /* line 244, ../sass/_responsive.sass */
   .speaker-name, .speaker-job-title {
     float: left;
   }
 
-  /* line 239, ../sass/_responsive.sass */
+  /* line 246, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 2.4em;
     padding-left: 1em;
   }
 
-  /* line 242, ../sass/_responsive.sass */
+  /* line 249, ../sass/_responsive.sass */
   .speaker-picture-container {
     width: 168px;
   }
 
-  /* line 245, ../sass/_responsive.sass */
+  /* line 252, ../sass/_responsive.sass */
   #map {
     width: 640px;
     height: 480px;
