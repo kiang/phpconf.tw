@@ -14,6 +14,7 @@
 
   #header, #main, #footer-content
     @include grid(4, 80px)
+    margin: 0 auto
 
   #header-logo-content
     padding-bottom: 1.5em
@@ -23,7 +24,7 @@
     color: #70A3B7
     font:
       family: 'Bauhs', sans-serif
-      size: 4.6em
+      size: 4.4em
 
   #conference-subtitle
     margin-top: -0.32em
@@ -87,6 +88,9 @@
 
   .news-index, .schedule-index, .speakers-index, .location-index, .staff-index
     padding-bottom: 1em
+  #map
+    width: 250px
+    height: 320px
 
 @media screen and (min-width: 479px)
   #conference-date
@@ -141,10 +145,10 @@
       width: 123px
 
   #sponsors
-    padding-left: 30px
+    padding-left: 40px
     li
-      width: 195px
-      padding-right: 30px
+      width: 180px
+      padding-right: 40px
       padding-bottom: 1em
     img
       width: auto
@@ -159,6 +163,10 @@
   .speaker-description
     margin: 0 auto
     width: 420px
+
+  #map
+    width: 400px
+    height: 240px
 
 @media screen and (min-width: 719px)
   #conference-slogan
@@ -203,7 +211,7 @@
     padding: 2em 0
     text-align: center
   #sponsors
-    padding-left: 0
+    padding: 0
     li
       width: 100%
       padding: 0 0 1em 0
