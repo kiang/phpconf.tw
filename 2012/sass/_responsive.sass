@@ -2,6 +2,17 @@
   width: $columns * $unitWidth
 
 @media screen and (min-width: 319px)
+  body
+    background: #FDFBFB url(../images/layout/bg_320.png) repeat-x center 40px
+    //background: #FDFBFB url(../images/layout/bg.png) repeat-x center 40px
+  #conference-title-mobile
+    margin: 0 auto
+    width: 320px
+    height: 120px
+    background: transparent url(../images/layout/title_320.png) no-repeat center center
+  #conference-title
+    display: none
+
   #conference-date
     color: #696A7B
     line-height: 0.3em
@@ -62,7 +73,7 @@
 
   #header-navigation
     ul
-      padding-left: 20px
+      padding: 0 0 0 20px
     li
       border-left: 2px solid #617CBE
       padding: 0.5em 0 0.5em 5px
@@ -103,6 +114,14 @@
     padding: 0 16px
 
 @media screen and (min-width: 479px)
+  body
+    background: #FDFBFB url(../images/layout/bg_480.png) repeat-x center 40px
+
+  #conference-title-mobile
+    width: 480px
+    height: 170px
+    background: transparent url(../images/layout/title_480.png) no-repeat center center
+
   #conference-date
     padding-right: 3.5em
 
@@ -151,7 +170,6 @@
     ul
       padding: 0 30px 0 60px
     li
-      padding: 0.5em 0 0.5em 5px
       width: 123px
 
   #sponsors
@@ -179,6 +197,14 @@
     height: 240px
 
 @media screen and (min-width: 719px)
+  body
+    background: #FDFBFB url(../images/layout/bg.png) repeat-x center 40px
+
+  #conference-title-mobile
+    display: none
+  #conference-title
+    display: block
+
   #conference-slogan
     color: #617CBE
     display: block
@@ -190,14 +216,6 @@
     @include grid(12, 60px)
   #header-logo-content
     padding-bottom: 0
-
-  #header-navigation
-    ul
-      padding-left: 0px
-    li
-      border-left: 0
-      padding: 0
-      width: auto
 
   #past-editions-content
     width: 704px
@@ -243,11 +261,16 @@
     padding-right: 0
   #header
     padding-top: 20px
+
   #header-navigation
     float: right
+    ul
+      padding: 0px
     li
-      padding-left: 1.6em
-      width:  auto
+      border-left: 0
+      padding: 0 0 0 32px
+      width: auto
+
   #footer-navigation
     font:
       size: 0.85em
@@ -331,7 +354,7 @@
     line-height: 2.28em
   #header-navigation
     li
-      padding-left: 2em
+      padding: 0 0 0 48px
   #footer-navigation
     li
       padding-right: 3em
