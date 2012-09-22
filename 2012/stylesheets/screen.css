@@ -1614,7 +1614,7 @@ body {
 
   /* line 196, ../sass/_responsive.sass */
   #sidebar-container {
-    background: url("../images/bg_sponser.png") repeat;
+    background: url("../images/bg_sponsor.png") repeat;
     border: 1px solid #cccccc;
     -webkit-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
     -moz-box-shadow: rgba(43, 39, 40, 0.4) 0 0 8px;
