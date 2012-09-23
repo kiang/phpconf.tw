@@ -1057,26 +1057,30 @@ body {
 }
 
 /* line 40, ../sass/_schedule.sass */
-.schedule-break-time {
-  background: #e5e5ec;
-  border-bottom: 2px dotted #c8c9d0;
+.schedule-break-time-text {
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   line-height: 2.6em;
 }
-/* line 49, ../sass/_schedule.sass */
-.schedule-break-time small {
+/* line 47, ../sass/_schedule.sass */
+.schedule-break-time-text small {
   font-size: 0.6em;
   font-weight: normal;
   padding-left: 10px;
 }
-/* line 54, ../sass/_schedule.sass */
-.schedule-break-time .font-phpconf {
-  font-size: 1.5em;
+
+/* line 53, ../sass/_schedule.sass */
+.schedule-break-time {
+  background: #e5e5ec;
+  border-bottom: 2px dotted #c8c9d0;
+}
+/* line 56, ../sass/_schedule.sass */
+.schedule-break-time table {
+  margin: 0 auto;
 }
 
-/* line 57, ../sass/_schedule.sass */
+/* line 59, ../sass/_schedule.sass */
 .schedule-break-time-last {
   border-bottom: 2px solid #404361;
 }
@@ -1225,26 +1229,26 @@ body {
 }
 
 /* line 37, ../sass/_location.sass */
-.google-map-hint-left {
-  color: #617cbe;
-  line-height: 1.5em;
-  padding-bottom: 0.8em;
+.google-map-hint-icon {
   vertical-align: top;
-  width: 106px;
-}
-/* line 43, ../sass/_location.sass */
-.google-map-hint-left .font-phpconf {
-  color: black;
-  font-size: 3em;
-  padding-right: 0.6em;
 }
 
-/* line 48, ../sass/_location.sass */
+/* line 40, ../sass/_location.sass */
+.google-map-hint-left, .google-map-hint-right {
+  padding: 0.33em 0 0.8em 0.5em;
+}
+
+/* line 43, ../sass/_location.sass */
+.google-map-hint-left {
+  color: #617cbe;
+  vertical-align: top;
+  width: 65px;
+  line-height: 2em;
+}
+
+/* line 49, ../sass/_location.sass */
 .google-map-hint-right {
   border-left: 1px solid #617cbe;
-  padding-left: 0.5em;
-  padding-top: 0.33em;
-  padding-bottom: 0.8em;
   vertical-align: top;
   line-height: 2em;
 }
@@ -1567,7 +1571,7 @@ body {
 
   /* line 170, ../sass/_responsive.sass */
   #header-navigation ul {
-    padding: 0 30px 0 60px;
+    padding: 0 0 0 90px;
   }
   /* line 172, ../sass/_responsive.sass */
   #header-navigation li {
@@ -1746,8 +1750,8 @@ body {
   }
   /* line 269, ../sass/_responsive.sass */
   #header-navigation li {
-    border-left: 0;
-    padding: 0 0 0 32px;
+    padding: 2px 0 2px 3px;
+    margin-left: 32px;
     width: auto;
   }
 
@@ -1907,7 +1911,7 @@ body {
 
   /* line 356, ../sass/_responsive.sass */
   #header-navigation li {
-    padding: 0 0 0 48px;
+    margin-left: 48px;
   }
 
   /* line 359, ../sass/_responsive.sass */
