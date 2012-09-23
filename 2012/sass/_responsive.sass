@@ -5,6 +5,11 @@
   body
     background: #FDFBFB url(../images/layout/bg_320.png) repeat-x center 40px
 
+  .display-320
+    display: block
+  .display-720
+    display: none
+
   #conference-title-mobile
     margin: 0 auto
     width: 320px
@@ -198,6 +203,11 @@
   body
     background: #FDFBFB url(../images/layout/bg.png) repeat-x center 40px
 
+  .display-320
+    display: none
+  .display-720
+    display: block
+
   #conference-title-mobile
     display: none
   #conference-title
@@ -274,8 +284,8 @@
       size: 0.85em
     li
       padding-right: 1.8em
-  #main
-    margin-top: 50px
+  #header
+    margin-bottom: 50px
   #sidebar-container
     font-size:  0.8em
     width: 100%
@@ -356,9 +366,10 @@
   #footer-navigation
     li
       padding-right: 3em
+  #sidebar-container, #registration-link
+    width: 92%
   #sidebar-container
     font-size:  0.85em
-    width: 92%
 
   .news-index
     article
