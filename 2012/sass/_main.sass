@@ -22,24 +22,6 @@ body
 //========== common settings end ==========
 
 //========================================
-// header settings
-//========================================
-#past-editions
-  background: #F5F4F6
-
-#past-editions-content
-  font-size: 0.9em
-  height: 40px
-  line-height: 40px
-  padding-right: 16px
-  text-align: right
-
-  a:active, a:hover, a:link, a:visited
-    color: #617CBE
-
-//========== header settings end ==========
-
-//========================================
 // navigation settings
 //========================================
 #header-navigation
@@ -66,6 +48,17 @@ body
     color: #FFF
   a:hover
     text-decoration: underline
+
+#past-editions
+  display: none
+  float: left
+
+#past-editions-content
+  font-size: 0.9em
+  padding-right: 16px
+
+  a:active, a:hover, a:link, a:visited
+    color: #FFF
 
 #registration-link
   background: #A20800
@@ -98,6 +91,7 @@ body
 
 #content-title-container
   border-bottom: 1px solid #617CBE
+  padding-top: 8px
   padding-left: 0.5em
   padding-bottom: 0.8em
 #content-title
@@ -116,9 +110,13 @@ body
 #sidebar-container img
   border: #9f9f9f 1px solid
 #sponsors
+  h2
+    font-size: 1.5em
+    line-height: 2em
+    margin: 0
   ul
     margin: 0
-    padding: 0
+    padding: 15px 0 0 0
   li
     float: left
 

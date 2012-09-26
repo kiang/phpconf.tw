@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-phpPid = Process.spawn("php -d apc.enabled=Off -S 127.0.0.1:10000")
+phpPid = Process.spawn("php -d apc.enabled=Off -S 127.0.0.1:10001")
 compassPid = Process.spawn("compass watch")
 
 trap("INT") {

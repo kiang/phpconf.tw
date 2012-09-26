@@ -20,7 +20,7 @@
 
   #conference-date
     color: #696A7B
-    line-height: 0.3em
+    line-height: 0
     text-align: right
     padding-right: 1em
   #conference-slogan
@@ -63,9 +63,6 @@
     margin-left: -0.2em
   //========== title block end ==========
 
-  #past-editions-content
-    margin: 0 auto
-    width: 304px
   #footer-navigation
     display: none
   #copyright
@@ -126,7 +123,7 @@
     background: transparent url(../images/layout/title_480.png) no-repeat center center
 
   #conference-date
-    padding-right: 3.5em
+    padding-right: 3em
 
   #header, #main, #header-logo-content, #footer-content
     @include grid(4, 120px)
@@ -159,8 +156,6 @@
     margin-left: -0.2em
   //========== title block end ==========
 
-  #past-editions-content
-    width: 464px
   #footer-navigation
     display: none
   #copyright
@@ -201,7 +196,7 @@
 
 @media screen and (min-width: 719px)
   body
-    background: #FDFBFB url(../images/layout/bg.png) repeat-x center 40px
+    background: #FDFBFB url(../images/layout/bg.png) repeat-x center 0
 
   .display-320
     display: none
@@ -225,8 +220,10 @@
   #header-logo-content
     padding-bottom: 0
 
+  #past-editions
+    display: block
   #past-editions-content
-    width: 704px
+    width: 240px
   #footer-navigation
     @include grid(9, 60px)
     display: block
@@ -243,14 +240,16 @@
     +box-shadow(rgba(43, 39, 40, .4) 0 0 8px)
     color: #696A7B
     font-weight: bold
-    margin: 0 auto
-    padding: 2em 0
+    margin: 30px auto 0 auto
     text-align: center
   #sponsors
     padding: 0
+    h2
+      background: #70A3B7
+      color: #FFF
     li
       width: 100%
-      padding: 0 0 1em 0
+      padding: 0 0 15px 0
       text-align: center
     img
       width: auto
@@ -275,7 +274,7 @@
     ul
       padding: 0px
     li
-      padding: 2px 0 2px 3px
+      padding: 7px 0 7px 10px
       margin-left: 32px
       width: auto
 
@@ -344,8 +343,6 @@
 
   #header, #main, #footer-content
     @include grid(12, 80px)
-  #past-editions-content
-    width: 946px
   #content, #footer-navigation, #header-logo-content
     @include grid(9, 80px)
   #sidebar, #copyright
