@@ -78,6 +78,8 @@
       border-left: 2px solid #617CBE
       padding: 0.5em 0 0.5em 5px
       width: 93px
+    .navigation-last
+      padding-right: 0
 
   #sponsors
     padding-left: 20px
@@ -103,15 +105,49 @@
     width: 250px
     height: 320px
 
-  .schedule-header
-    display: none
-  .schedule-time, .schedule-header-time, .schedule-info, .schedule-header-info
-    line-height: 2em
   .schedule-time, .schedule-header-time
+    text-align: center
+    width: 60px
+    float: left
+  .schedule-time
+    line-height: 1.5em
     text-align: left
-    padding-left: 1em
+    padding-left: 6px
   .schedule-info, .schedule-header-info
-    padding: 0 16px
+    padding: 0 5px
+    width: 210px
+    float: right
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px
+    width: 95px
+  .schedule-info-2track-left
+    border-right: 2px dotted #C8C9D0
+  #schedule-info-2track-right-fix-1, #schedule-info-2track-right-fix-2, #schedule-info-2track-right-fix-3, #schedule-info-2track-right-fix-4
+    width: 100%
+  .schedule-header-info
+    .schedule-info-2track-left
+      border: 0
+  .schedule-info
+    border-left: 2px dotted #C8C9D0
+    h4, h5
+      margin: 0.5em 0 0 0
+      line-height: 1.2em
+    h4
+      font-size: 1em
+    h5
+      font-size: 0.8em
+      padding-bottom: 0.5em
+    article
+      color: #617CBE
+      font-size: 0.85em
+      line-height: 1.2em
+      padding-bottom: 0.5em
+  #schedule-info-2track-right-fix-1
+    height: 1.5em
+  .schedule-event-short
+    .schedule-info
+      padding: 10px 5px
 
 @media screen and (min-width: 479px)
   body
@@ -169,6 +205,8 @@
       padding: 0 0 0 90px
     li
       width: 123px
+    .navigation-last
+      padding-right: 0
 
   #sponsors
     padding-left: 40px
@@ -178,6 +216,23 @@
       padding-bottom: 1em
     img
       width: auto
+
+  .schedule-info, .schedule-header-info
+    padding: 0 5px
+    width: 368px
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px
+    width: 173px
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      float: left
+      padding: 0 42px
+      width: 95px
+  #schedule-info-2track-right-fix-1
+    height: 0
+
+
   .speaker-title-container
     float: right
     padding: 1em 0
@@ -274,9 +329,11 @@
     ul
       padding: 0px
     li
-      padding: 7px 0 7px 10px
-      margin-left: 32px
+      padding: 7px 32px 7px 10px
+      //margin-left: 32px
       width: auto
+    .navigation-last
+      padding-right: 0
 
   #footer-navigation
     font:
@@ -293,22 +350,60 @@
     article
       padding: 0 1em
 
-  .schedule-header-mobile
-    display: none
-  .schedule-header
-    display: block
-  .schedule-time, .schedule-header-time, .schedule-info, .schedule-header-info
-    line-height: 3.8em
+  .schedule-time
+    line-height: 3.5em
+  .schedule-info
+    line-height: 2.1em
+    border-left: 2px dotted #C8C9D0
+    padding-bottom: 0
   .schedule-time, .schedule-header-time
     text-align: center
-    width: 138px
+    width: 100px
     float: left
     padding-left: 0
   .schedule-info, .schedule-header-info
-    width: 272px
+    width: 328px
+    padding: 0 8px
     float: right
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      padding: 0 34px
+      width: 95px
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px 0
+  .schedule-info-2track-left
+    border-right: 2px dotted #C8C9D0
+    width: 156px
+    padding-right: 8px
+  .schedule-info-2track-right
+    width: 154px
+    padding-left: 8px
+  #schedule-info-2track-right-fix-1
+    height: 1.5em
+  #schedule-info-2track-right-fix-2
+    height: 1.5em
+  #schedule-info-2track-right-fix-3
+    height: 3em
+  #schedule-info-2track-right-fix-4
+    height: 4.5em
   .schedule-info
-    border-left: 2px dotted #C8C9D0
+    h4, h5
+      margin: 0.5em 0 0 0
+      line-height: 1.2em
+    h4
+      font-size: 1.25em
+    h5
+      font-size: 0.8em
+      padding-bottom: 0.5em
+    article
+      color: #617CBE
+      font-size: 0.85em
+      line-height: 1.2em
+      padding-bottom: 0.5em
+  .schedule-event-short
+    .schedule-info
+      padding: 10px 8px
 
   .speaker-title-container
     float: none
@@ -358,8 +453,12 @@
     font-size: 1.3em
     line-height: 2.28em
   #header-navigation
+    ul
+      padding: 0
     li
-      margin-left: 48px
+      padding-right: 48px
+    .navigation-last
+      padding-right: 0
   #footer-navigation
     li
       padding-right: 3em
@@ -373,9 +472,34 @@
       padding: 0 1.2em
 
   .schedule-time, .schedule-header-time
-    @include grid(2.0, 80px)
+    width: 110px
   .schedule-info, .schedule-header-info
-    @include grid(5.6, 80px)
+    padding: 0 16px
+    width: 505px
+  .schedule-info-2track-left
+    width: 208px
+    padding-right: 16px
+  .schedule-info-2track-right
+    width: 206px
+    padding-left: 16px
+  #schedule-info-2track-right-fix-1
+    height: 1.5em
+  #schedule-info-2track-right-fix-2
+    height: 0
+  #schedule-info-2track-right-fix-3
+    height: 1.5em
+  #schedule-info-2track-right-fix-4
+    height: 3em
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      padding: 0 75px
+      width: 95px
+  .schedule-event-short
+    .schedule-info
+      padding: 10px 16px
+  .schedule-index
+    padding-left: 1.2em
+    padding-right: 1.2em
 
   .speaker-info
     @include grid(2, 80px)
@@ -388,10 +512,6 @@
     padding-left: 1em
   .speaker-picture-container
     width: 168px
-
-  .schedule-index
-    padding-left: 1.2em
-    padding-right: 1.2em
 
   #map
     @include grid(8, 80px)
