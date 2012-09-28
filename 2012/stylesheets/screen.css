@@ -1042,10 +1042,9 @@ body {
 /* line 1, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-index {
   margin-top: 1.5em;
-  margin-bottom: 3em;
 }
 
-/* line 5, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 4, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-header {
   background: #7d8fd0;
   border-bottom: 2px solid #404361;
@@ -1054,23 +1053,23 @@ body {
   padding: 0.6em 0;
 }
 
-/* line 12, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 11, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-header-time {
   line-height: 1.5em;
 }
 
-/* line 15, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 14, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-header-info small {
   font-size: 0.6em;
 }
 
-/* line 18, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 17, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-event, .schedule-event-short {
   background: white;
   border-bottom: 2px dotted #c8c9d0;
 }
 
-/* line 23, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 22, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-event-short .schedule-info {
   color: #617cbe;
   font-size: 1.5em;
@@ -1078,36 +1077,36 @@ body {
   padding-bottom: 5px;
 }
 
-/* line 29, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 28, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-time {
   font-size: 0.9em;
 }
 
-/* line 32, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 31, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-break-time-text {
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   line-height: 2.6em;
 }
-/* line 39, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 38, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-break-time-text small {
   font-size: 0.6em;
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 45, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 44, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-break-time {
   background: #e5e5ec;
   border-bottom: 2px dotted #c8c9d0;
 }
-/* line 48, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 47, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-break-time table {
   margin: 0 auto;
 }
 
-/* line 51, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
+/* line 50, c:/tmp/phpconf.tw/2012/sass/_schedule.sass */
 .schedule-break-time-last {
   border-bottom: 2px solid #404361;
 }
