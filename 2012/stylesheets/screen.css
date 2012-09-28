@@ -1055,7 +1055,7 @@ body {
 
 /* line 11, ../sass/_schedule.sass */
 .schedule-header-time {
-  line-height: 2em;
+  line-height: 2.2em;
 }
 
 /* line 14, ../sass/_schedule.sass */
@@ -1069,42 +1069,42 @@ body {
   border-bottom: 2px dotted #c8c9d0;
 }
 
-/* line 24, ../sass/_schedule.sass */
+/* line 22, ../sass/_schedule.sass */
 .schedule-event-short .schedule-info {
   color: #617cbe;
   font-size: 1.5em;
 }
 
-/* line 30, ../sass/_schedule.sass */
+/* line 26, ../sass/_schedule.sass */
 .schedule-time {
   font-size: 0.9em;
 }
 
-/* line 33, ../sass/_schedule.sass */
+/* line 29, ../sass/_schedule.sass */
 .schedule-break-time-text {
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   line-height: 2.6em;
 }
-/* line 40, ../sass/_schedule.sass */
+/* line 36, ../sass/_schedule.sass */
 .schedule-break-time-text small {
   font-size: 0.6em;
   font-weight: normal;
   padding-left: 10px;
 }
 
-/* line 46, ../sass/_schedule.sass */
+/* line 42, ../sass/_schedule.sass */
 .schedule-break-time {
   background: #e5e5ec;
   border-bottom: 2px dotted #c8c9d0;
 }
-/* line 49, ../sass/_schedule.sass */
+/* line 45, ../sass/_schedule.sass */
 .schedule-break-time table {
   margin: 0 auto;
 }
 
-/* line 52, ../sass/_schedule.sass */
+/* line 48, ../sass/_schedule.sass */
 .schedule-break-time-last {
   border-bottom: 2px solid #404361;
 }
@@ -1505,56 +1505,57 @@ body {
     line-height: 1.5em;
     text-align: left;
     padding-left: 6px;
+    padding-top: 5px;
   }
 
-  /* line 116, ../sass/_responsive.sass */
+  /* line 117, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     padding: 0 5px;
     width: 212px;
     float: right;
   }
 
-  /* line 120, ../sass/_responsive.sass */
+  /* line 121, ../sass/_responsive.sass */
   .schedule-info-2track-left, .schedule-info-2track-right {
     float: left;
     padding: 5px;
     width: 95px;
   }
 
-  /* line 124, ../sass/_responsive.sass */
+  /* line 125, ../sass/_responsive.sass */
   .schedule-info-2track-left {
     border-right: 2px dotted #c8c9d0;
   }
 
-  /* line 126, ../sass/_responsive.sass */
+  /* line 127, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1, #schedule-info-2track-right-fix-2, #schedule-info-2track-right-fix-3, #schedule-info-2track-right-fix-4 {
     width: 100%;
   }
 
-  /* line 129, ../sass/_responsive.sass */
+  /* line 130, ../sass/_responsive.sass */
   .schedule-header-info .schedule-info-2track-left {
     border: 0;
   }
 
-  /* line 131, ../sass/_responsive.sass */
+  /* line 132, ../sass/_responsive.sass */
   .schedule-info {
     border-left: 2px dotted #c8c9d0;
   }
-  /* line 133, ../sass/_responsive.sass */
+  /* line 134, ../sass/_responsive.sass */
   .schedule-info h4, .schedule-info h5 {
     margin: 0.5em 0 0 0;
     line-height: 1.2em;
   }
-  /* line 136, ../sass/_responsive.sass */
+  /* line 137, ../sass/_responsive.sass */
   .schedule-info h4 {
     font-size: 1em;
   }
-  /* line 138, ../sass/_responsive.sass */
+  /* line 139, ../sass/_responsive.sass */
   .schedule-info h5 {
     font-size: 0.8em;
     padding-bottom: 0.5em;
   }
-  /* line 141, ../sass/_responsive.sass */
+  /* line 142, ../sass/_responsive.sass */
   .schedule-info article {
     color: #617cbe;
     font-size: 0.85em;
@@ -1562,199 +1563,206 @@ body {
     padding-bottom: 0.5em;
   }
 
-  /* line 146, ../sass/_responsive.sass */
+  /* line 147, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1 {
     height: 1.5em;
   }
 
-  /* line 149, ../sass/_responsive.sass */
+  /* line 150, ../sass/_responsive.sass */
   .schedule-event-short .schedule-info {
-    padding: 10px 5px;
+    padding: 16px 8px;
+    width: 206px;
   }
 }
 @media screen and (min-width: 479px) {
-  /* line 153, ../sass/_responsive.sass */
+  /* line 155, ../sass/_responsive.sass */
   body {
     background: #fdfbfb url(../images/layout/bg_480.png) repeat-x center 40px;
   }
 
-  /* line 156, ../sass/_responsive.sass */
+  /* line 158, ../sass/_responsive.sass */
   #conference-title-mobile {
     width: 480px;
     height: 170px;
     background: transparent url(../images/layout/title_480.png) no-repeat center center;
   }
 
-  /* line 161, ../sass/_responsive.sass */
+  /* line 163, ../sass/_responsive.sass */
   #conference-date {
     padding-right: 3em;
   }
 
-  /* line 164, ../sass/_responsive.sass */
+  /* line 166, ../sass/_responsive.sass */
   #header, #main, #header-logo-content, #footer-content {
     width: 480px;
   }
 
-  /* line 168, ../sass/_responsive.sass */
+  /* line 170, ../sass/_responsive.sass */
   #conference-title {
     color: #70a3b7;
     font-family: "Bauhs", sans-serif;
     font-size: 6em;
   }
 
-  /* line 174, ../sass/_responsive.sass */
+  /* line 176, ../sass/_responsive.sass */
   #conference-subtitle {
     margin-top: -0.32em;
   }
 
-  /* line 177, ../sass/_responsive.sass */
+  /* line 179, ../sass/_responsive.sass */
   .taiwan-letter, .conference-year {
     font-family: "Gothic", sans-serif;
     font-size: 0.6em;
   }
 
-  /* line 182, ../sass/_responsive.sass */
+  /* line 184, ../sass/_responsive.sass */
   .conference-year {
     margin-left: 0.2em;
   }
 
-  /* line 185, ../sass/_responsive.sass */
+  /* line 187, ../sass/_responsive.sass */
   .taiwan-first-letter, .taiwan-letter, .title-color2 {
     color: #757575;
   }
 
-  /* line 188, ../sass/_responsive.sass */
+  /* line 190, ../sass/_responsive.sass */
   .taiwan-first-letter {
     margin-left: -0.79em;
   }
 
-  /* line 191, ../sass/_responsive.sass */
+  /* line 193, ../sass/_responsive.sass */
   .taiwan-letter {
     margin-left: -0.2em;
   }
 
-  /* line 195, ../sass/_responsive.sass */
+  /* line 197, ../sass/_responsive.sass */
   #footer-navigation {
     display: none;
   }
 
-  /* line 197, ../sass/_responsive.sass */
+  /* line 199, ../sass/_responsive.sass */
   #copyright {
     width: 440px;
     float: left;
   }
 
-  /* line 200, ../sass/_responsive.sass */
+  /* line 202, ../sass/_responsive.sass */
   #content, #sidebar {
     width: 480px;
   }
 
-  /* line 204, ../sass/_responsive.sass */
+  /* line 206, ../sass/_responsive.sass */
   #header-navigation ul {
     padding: 0 0 0 90px;
   }
-  /* line 206, ../sass/_responsive.sass */
+  /* line 208, ../sass/_responsive.sass */
   #header-navigation li {
     width: 123px;
   }
-  /* line 208, ../sass/_responsive.sass */
+  /* line 210, ../sass/_responsive.sass */
   #header-navigation .navigation-last {
     padding-right: 0;
   }
 
-  /* line 211, ../sass/_responsive.sass */
+  /* line 213, ../sass/_responsive.sass */
   #sponsors {
     padding-left: 40px;
   }
-  /* line 213, ../sass/_responsive.sass */
+  /* line 215, ../sass/_responsive.sass */
   #sponsors li {
     width: 180px;
     padding-right: 40px;
     padding-bottom: 1em;
   }
-  /* line 217, ../sass/_responsive.sass */
+  /* line 219, ../sass/_responsive.sass */
   #sponsors img {
     width: auto;
   }
 
-  /* line 220, ../sass/_responsive.sass */
+  /* line 222, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     padding: 0 5px;
     width: 368px;
   }
 
-  /* line 223, ../sass/_responsive.sass */
+  /* line 225, ../sass/_responsive.sass */
   .schedule-info-2track-left, .schedule-info-2track-right {
     float: left;
     padding: 5px;
     width: 173px;
   }
 
-  /* line 228, ../sass/_responsive.sass */
+  /* line 230, ../sass/_responsive.sass */
   .schedule-header-info .schedule-info-2track-left, .schedule-header-info .schedule-info-2track-right {
     float: left;
     padding: 0 42px;
     width: 95px;
   }
 
-  /* line 232, ../sass/_responsive.sass */
+  /* line 234, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1 {
     height: 0;
   }
 
-  /* line 236, ../sass/_responsive.sass */
+  /* line 237, ../sass/_responsive.sass */
+  .schedule-event-short .schedule-info {
+    padding: 16px 8px;
+    width: 362px;
+  }
+
+  /* line 242, ../sass/_responsive.sass */
   .speaker-title-container {
     float: right;
     padding: 1em 0;
     width: 288px;
   }
 
-  /* line 240, ../sass/_responsive.sass */
+  /* line 246, ../sass/_responsive.sass */
   .speaker-picture-container {
     float: left;
     padding: 1em 0;
     width: 160px;
   }
 
-  /* line 244, ../sass/_responsive.sass */
+  /* line 250, ../sass/_responsive.sass */
   .speaker-description {
     margin: 0 auto;
     width: 420px;
   }
 
-  /* line 248, ../sass/_responsive.sass */
+  /* line 254, ../sass/_responsive.sass */
   #map {
     width: 400px;
     height: 240px;
   }
 }
 @media screen and (min-width: 719px) {
-  /* line 253, ../sass/_responsive.sass */
+  /* line 259, ../sass/_responsive.sass */
   body {
     background: #fdfbfb url(../images/layout/bg.png) repeat-x center 0;
   }
 
-  /* line 256, ../sass/_responsive.sass */
+  /* line 262, ../sass/_responsive.sass */
   .display-320 {
     display: none;
   }
 
-  /* line 258, ../sass/_responsive.sass */
+  /* line 264, ../sass/_responsive.sass */
   .display-720 {
     display: block;
   }
 
-  /* line 261, ../sass/_responsive.sass */
+  /* line 267, ../sass/_responsive.sass */
   #conference-title-mobile {
     display: none;
   }
 
-  /* line 263, ../sass/_responsive.sass */
+  /* line 269, ../sass/_responsive.sass */
   #conference-title {
     display: block;
   }
 
-  /* line 266, ../sass/_responsive.sass */
+  /* line 272, ../sass/_responsive.sass */
   #conference-slogan {
     color: #617cbe;
     display: block;
@@ -1763,49 +1771,49 @@ body {
     text-align: right;
   }
 
-  /* line 273, ../sass/_responsive.sass */
+  /* line 279, ../sass/_responsive.sass */
   #header, #main, #header-logo-content, #footer-content {
     width: 720px;
   }
 
-  /* line 275, ../sass/_responsive.sass */
+  /* line 281, ../sass/_responsive.sass */
   #header-logo-content {
     padding-bottom: 0;
   }
 
-  /* line 278, ../sass/_responsive.sass */
+  /* line 284, ../sass/_responsive.sass */
   #past-editions {
     display: block;
   }
 
-  /* line 280, ../sass/_responsive.sass */
+  /* line 286, ../sass/_responsive.sass */
   #past-editions-content {
     width: 240px;
   }
 
-  /* line 282, ../sass/_responsive.sass */
+  /* line 288, ../sass/_responsive.sass */
   #footer-navigation {
     width: 540px;
     display: block;
   }
 
-  /* line 285, ../sass/_responsive.sass */
+  /* line 291, ../sass/_responsive.sass */
   #copyright {
     width: 180px;
     float: right;
   }
 
-  /* line 288, ../sass/_responsive.sass */
+  /* line 294, ../sass/_responsive.sass */
   #content {
     width: 510px;
   }
 
-  /* line 290, ../sass/_responsive.sass */
+  /* line 296, ../sass/_responsive.sass */
   #sidebar {
     width: 210px;
   }
 
-  /* line 292, ../sass/_responsive.sass */
+  /* line 298, ../sass/_responsive.sass */
   #sidebar-container {
     background: url("../images/bg_sponsor.png") repeat;
     border: 1px solid #cccccc;
@@ -1818,43 +1826,43 @@ body {
     text-align: center;
   }
 
-  /* line 300, ../sass/_responsive.sass */
+  /* line 306, ../sass/_responsive.sass */
   #sponsors {
     padding: 0;
   }
-  /* line 302, ../sass/_responsive.sass */
+  /* line 308, ../sass/_responsive.sass */
   #sponsors h2 {
     background: #70a3b7;
     color: white;
   }
-  /* line 305, ../sass/_responsive.sass */
+  /* line 311, ../sass/_responsive.sass */
   #sponsors li {
     width: 100%;
     padding: 0 0 15px 0;
     text-align: center;
   }
-  /* line 309, ../sass/_responsive.sass */
+  /* line 315, ../sass/_responsive.sass */
   #sponsors img {
     width: auto;
   }
 
-  /* line 311, ../sass/_responsive.sass */
+  /* line 317, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 313, ../sass/_responsive.sass */
+  /* line 319, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 315, ../sass/_responsive.sass */
+  /* line 321, ../sass/_responsive.sass */
   #conference-title {
     width: 390px;
     text-align: left;
   }
 
-  /* line 318, ../sass/_responsive.sass */
+  /* line 324, ../sass/_responsive.sass */
   #conference-date {
     width: 330px;
     font-size: 1.3em;
@@ -1863,67 +1871,68 @@ body {
     padding-right: 0;
   }
 
-  /* line 324, ../sass/_responsive.sass */
+  /* line 330, ../sass/_responsive.sass */
   #header {
     padding-top: 20px;
   }
 
-  /* line 327, ../sass/_responsive.sass */
+  /* line 333, ../sass/_responsive.sass */
   #header-navigation {
     float: right;
   }
-  /* line 329, ../sass/_responsive.sass */
+  /* line 335, ../sass/_responsive.sass */
   #header-navigation ul {
     padding: 0px;
   }
-  /* line 331, ../sass/_responsive.sass */
+  /* line 337, ../sass/_responsive.sass */
   #header-navigation li {
     padding: 7px 32px 7px 10px;
     width: auto;
   }
-  /* line 335, ../sass/_responsive.sass */
+  /* line 341, ../sass/_responsive.sass */
   #header-navigation .navigation-last {
     padding-right: 0;
   }
 
-  /* line 338, ../sass/_responsive.sass */
+  /* line 344, ../sass/_responsive.sass */
   #footer-navigation {
     font-size: 0.85em;
   }
-  /* line 341, ../sass/_responsive.sass */
+  /* line 347, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 1.8em;
   }
 
-  /* line 343, ../sass/_responsive.sass */
+  /* line 349, ../sass/_responsive.sass */
   #header {
     margin-bottom: 50px;
   }
 
-  /* line 345, ../sass/_responsive.sass */
+  /* line 351, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.8em;
     width: 100%;
   }
 
-  /* line 350, ../sass/_responsive.sass */
+  /* line 356, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1em;
   }
 
-  /* line 353, ../sass/_responsive.sass */
+  /* line 359, ../sass/_responsive.sass */
   .schedule-time {
     line-height: 3.5em;
+    padding-top: 0;
   }
 
-  /* line 355, ../sass/_responsive.sass */
+  /* line 362, ../sass/_responsive.sass */
   .schedule-info {
     line-height: 2.1em;
     border-left: 2px dotted #c8c9d0;
     padding-bottom: 0;
   }
 
-  /* line 359, ../sass/_responsive.sass */
+  /* line 366, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     text-align: center;
     width: 100px;
@@ -1931,73 +1940,73 @@ body {
     padding-left: 0;
   }
 
-  /* line 364, ../sass/_responsive.sass */
+  /* line 371, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     width: 328px;
     padding: 0 8px;
     float: right;
   }
 
-  /* line 369, ../sass/_responsive.sass */
+  /* line 376, ../sass/_responsive.sass */
   .schedule-header-info .schedule-info-2track-left, .schedule-header-info .schedule-info-2track-right {
     padding: 0 34px;
     width: 95px;
   }
 
-  /* line 372, ../sass/_responsive.sass */
+  /* line 379, ../sass/_responsive.sass */
   .schedule-info-2track-left, .schedule-info-2track-right {
     float: left;
     padding: 5px 0;
   }
 
-  /* line 375, ../sass/_responsive.sass */
+  /* line 382, ../sass/_responsive.sass */
   .schedule-info-2track-left {
     border-right: 2px dotted #c8c9d0;
     width: 156px;
     padding-right: 8px;
   }
 
-  /* line 379, ../sass/_responsive.sass */
+  /* line 386, ../sass/_responsive.sass */
   .schedule-info-2track-right {
     width: 154px;
     padding-left: 8px;
   }
 
-  /* line 382, ../sass/_responsive.sass */
+  /* line 389, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1 {
     height: 1.5em;
   }
 
-  /* line 384, ../sass/_responsive.sass */
+  /* line 391, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-2 {
     height: 1.5em;
   }
 
-  /* line 386, ../sass/_responsive.sass */
+  /* line 393, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-3 {
     height: 3em;
   }
 
-  /* line 388, ../sass/_responsive.sass */
+  /* line 395, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-4 {
     height: 3em;
   }
 
-  /* line 391, ../sass/_responsive.sass */
+  /* line 398, ../sass/_responsive.sass */
   .schedule-info h4, .schedule-info h5 {
     margin: 0.5em 0 0 0;
     line-height: 1.2em;
   }
-  /* line 394, ../sass/_responsive.sass */
+  /* line 401, ../sass/_responsive.sass */
   .schedule-info h4 {
     font-size: 1.25em;
   }
-  /* line 396, ../sass/_responsive.sass */
+  /* line 403, ../sass/_responsive.sass */
   .schedule-info h5 {
     font-size: 0.8em;
     padding-bottom: 0.5em;
   }
-  /* line 399, ../sass/_responsive.sass */
+  /* line 406, ../sass/_responsive.sass */
   .schedule-info article {
     color: #617cbe;
     font-size: 0.85em;
@@ -2005,221 +2014,223 @@ body {
     padding-bottom: 0.5em;
   }
 
-  /* line 405, ../sass/_responsive.sass */
+  /* line 412, ../sass/_responsive.sass */
   .schedule-event-short .schedule-info {
     padding: 0 8px;
+    width: 328px;
   }
 
-  /* line 408, ../sass/_responsive.sass */
+  /* line 416, ../sass/_responsive.sass */
   .speaker-title-container {
     float: none;
   }
 
-  /* line 410, ../sass/_responsive.sass */
+  /* line 418, ../sass/_responsive.sass */
   .speaker-info {
     width: 120px;
     float: left;
   }
 
-  /* line 413, ../sass/_responsive.sass */
+  /* line 421, ../sass/_responsive.sass */
   .speaker-description {
     width: 330px;
     float: right;
     clear: none;
   }
 
-  /* line 417, ../sass/_responsive.sass */
+  /* line 425, ../sass/_responsive.sass */
   .speaker-picture-container {
     padding: 0;
     width: 148px;
   }
 
-  /* line 420, ../sass/_responsive.sass */
+  /* line 428, ../sass/_responsive.sass */
   .socialIcons {
     display: block;
     padding: 8px 3px;
   }
 
-  /* line 424, ../sass/_responsive.sass */
+  /* line 432, ../sass/_responsive.sass */
   .news-index, .schedule-index, .speakers-index, .location-index, .staff-index {
     padding-bottom: 3em;
   }
 
-  /* line 427, ../sass/_responsive.sass */
+  /* line 435, ../sass/_responsive.sass */
   .schedule-index {
     padding-left: 1em;
     padding-right: 1em;
   }
 
-  /* line 431, ../sass/_responsive.sass */
+  /* line 439, ../sass/_responsive.sass */
   #map {
     width: 438px;
     height: 360px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 436, ../sass/_responsive.sass */
+  /* line 444, ../sass/_responsive.sass */
   #header-logo {
     background: url("../images/layout/mascot.png") no-repeat 10px 100%;
   }
 
-  /* line 439, ../sass/_responsive.sass */
+  /* line 447, ../sass/_responsive.sass */
   #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 441, ../sass/_responsive.sass */
+  /* line 449, ../sass/_responsive.sass */
   #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 443, ../sass/_responsive.sass */
+  /* line 451, ../sass/_responsive.sass */
   #sidebar, #copyright {
     width: 240px;
   }
 
-  /* line 445, ../sass/_responsive.sass */
+  /* line 453, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 447, ../sass/_responsive.sass */
+  /* line 455, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 449, ../sass/_responsive.sass */
+  /* line 457, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 451, ../sass/_responsive.sass */
+  /* line 459, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 456, ../sass/_responsive.sass */
+  /* line 464, ../sass/_responsive.sass */
   #header-navigation ul {
     padding: 0;
   }
-  /* line 458, ../sass/_responsive.sass */
+  /* line 466, ../sass/_responsive.sass */
   #header-navigation li {
     padding-right: 48px;
   }
-  /* line 460, ../sass/_responsive.sass */
+  /* line 468, ../sass/_responsive.sass */
   #header-navigation .navigation-last {
     padding-right: 0;
   }
 
-  /* line 463, ../sass/_responsive.sass */
+  /* line 471, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 3em;
   }
 
-  /* line 465, ../sass/_responsive.sass */
+  /* line 473, ../sass/_responsive.sass */
   #sidebar-container, #registration-link {
     width: 92%;
   }
 
-  /* line 467, ../sass/_responsive.sass */
+  /* line 475, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.85em;
   }
 
-  /* line 471, ../sass/_responsive.sass */
+  /* line 479, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1.2em;
   }
 
-  /* line 474, ../sass/_responsive.sass */
+  /* line 482, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 110px;
   }
 
-  /* line 476, ../sass/_responsive.sass */
+  /* line 484, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     padding: 0 16px;
     width: 505px;
   }
 
-  /* line 479, ../sass/_responsive.sass */
+  /* line 487, ../sass/_responsive.sass */
   .schedule-info-2track-left {
     width: 236px;
     padding-right: 16px;
   }
 
-  /* line 482, ../sass/_responsive.sass */
+  /* line 490, ../sass/_responsive.sass */
   .schedule-info-2track-right {
     width: 235px;
     padding-left: 16px;
   }
 
-  /* line 485, ../sass/_responsive.sass */
+  /* line 493, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1 {
     height: 0;
   }
 
-  /* line 487, ../sass/_responsive.sass */
+  /* line 495, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-2 {
     height: 0;
   }
 
-  /* line 489, ../sass/_responsive.sass */
+  /* line 497, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-3 {
     height: 0;
   }
 
-  /* line 491, ../sass/_responsive.sass */
+  /* line 499, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-4 {
     height: 3em;
   }
 
-  /* line 494, ../sass/_responsive.sass */
+  /* line 502, ../sass/_responsive.sass */
   .schedule-header-info .schedule-info-2track-left, .schedule-header-info .schedule-info-2track-right {
     padding: 0 78px;
     width: 95px;
   }
 
-  /* line 498, ../sass/_responsive.sass */
+  /* line 506, ../sass/_responsive.sass */
   .schedule-event-short .schedule-info {
     padding: 0 16px;
+    width: 505px;
   }
 
-  /* line 500, ../sass/_responsive.sass */
+  /* line 509, ../sass/_responsive.sass */
   .schedule-index {
     padding-left: 1.2em;
     padding-right: 1.2em;
   }
 
-  /* line 504, ../sass/_responsive.sass */
+  /* line 513, ../sass/_responsive.sass */
   .speaker-info {
     width: 160px;
   }
 
-  /* line 506, ../sass/_responsive.sass */
+  /* line 515, ../sass/_responsive.sass */
   .speaker-description {
     width: 520px;
   }
 
-  /* line 508, ../sass/_responsive.sass */
+  /* line 517, ../sass/_responsive.sass */
   .speaker-name, .speaker-job-title {
     float: left;
   }
 
-  /* line 510, ../sass/_responsive.sass */
+  /* line 519, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 2.4em;
     padding-left: 1em;
   }
 
-  /* line 513, ../sass/_responsive.sass */
+  /* line 522, ../sass/_responsive.sass */
   .speaker-picture-container {
     width: 168px;
   }
 
-  /* line 516, ../sass/_responsive.sass */
+  /* line 525, ../sass/_responsive.sass */
   #map {
     width: 640px;
     height: 480px;
