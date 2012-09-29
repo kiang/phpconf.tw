@@ -791,107 +791,112 @@ table {
 }
 
 /* line 8, ../sass/_main.sass */
+.hidden {
+  display: none;
+}
+
+/* line 11, ../sass/_main.sass */
 a:active, a:hover, a:link, a:visited {
   text-decoration: none;
 }
 
-/* line 11, ../sass/_main.sass */
+/* line 14, ../sass/_main.sass */
 body {
   font-family: "XinGothic", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12pt;
 }
 
-/* line 16, ../sass/_main.sass */
+/* line 19, ../sass/_main.sass */
 .navigation {
   margin: 0;
   padding: 0;
 }
-/* line 19, ../sass/_main.sass */
+/* line 22, ../sass/_main.sass */
 .navigation li {
   float: left;
 }
 
-/* line 22, ../sass/_main.sass */
+/* line 25, ../sass/_main.sass */
 #conference-mascot {
   display: none;
 }
 
-/* line 30, ../sass/_main.sass */
+/* line 33, ../sass/_main.sass */
 #header-navigation {
   margin-top: 1.8em;
   font-size: 0.9em;
   font-weight: bold;
 }
-/* line 37, ../sass/_main.sass */
+/* line 40, ../sass/_main.sass */
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
-/* line 39, ../sass/_main.sass */
+/* line 42, ../sass/_main.sass */
 #header-navigation a:hover {
   text-decoration: underline;
 }
-/* line 42, ../sass/_main.sass */
+/* line 45, ../sass/_main.sass */
 #header-navigation .nav-active {
   color: #a40000;
 }
-/* line 44, ../sass/_main.sass */
+/* line 47, ../sass/_main.sass */
 #header-navigation .nav-active a:active, #header-navigation .nav-active a:hover, #header-navigation .nav-active a:link, #header-navigation .nav-active a:visited {
   color: #a40000;
 }
 
-/* line 47, ../sass/_main.sass */
+/* line 50, ../sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 50, ../sass/_main.sass */
+/* line 53, ../sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
-/* line 52, ../sass/_main.sass */
+/* line 55, ../sass/_main.sass */
 #footer-navigation a:hover {
   text-decoration: underline;
 }
 
-/* line 55, ../sass/_main.sass */
+/* line 58, ../sass/_main.sass */
 #past-editions {
   display: none;
   float: left;
 }
 
-/* line 59, ../sass/_main.sass */
+/* line 62, ../sass/_main.sass */
 #past-editions-content {
   font-size: 0.9em;
   padding-right: 16px;
 }
-/* line 63, ../sass/_main.sass */
+/* line 66, ../sass/_main.sass */
 #past-editions-content a:active, #past-editions-content a:hover, #past-editions-content a:link, #past-editions-content a:visited {
   color: white;
 }
 
-/* line 66, ../sass/_main.sass */
+/* line 69, ../sass/_main.sass */
 #registration-link {
   background: #a20800;
   color: white;
   padding: 8px 0;
   margin: 0 auto 0.5em auto;
 }
-/* line 69, ../sass/_main.sass */
+/* line 72, ../sass/_main.sass */
 #registration-link a:active, #registration-link a:hover, #registration-link a:link, #registration-link a:visited {
   color: white;
 }
 
-/* line 73, ../sass/_main.sass */
+/* line 76, ../sass/_main.sass */
 .registration-date {
   font-size: 0.8em;
   line-height: 1.2em;
 }
 
-/* line 76, ../sass/_main.sass */
+/* line 79, ../sass/_main.sass */
 .registration-title, .registration-date {
   padding: 0 16px;
 }
 
-/* line 79, ../sass/_main.sass */
+/* line 82, ../sass/_main.sass */
 #registration-link-320 {
   background: #a20800;
   color: white;
@@ -899,17 +904,17 @@ body {
   margin-bottom: 1.5em;
   text-align: center;
 }
-/* line 82, ../sass/_main.sass */
+/* line 85, ../sass/_main.sass */
 #registration-link-320 a:active, #registration-link-320 a:hover, #registration-link-320 a:link, #registration-link-320 a:visited {
   color: white;
 }
 
-/* line 92, ../sass/_main.sass */
+/* line 95, ../sass/_main.sass */
 #content-container {
   padding: 0 1em;
 }
 
-/* line 95, ../sass/_main.sass */
+/* line 98, ../sass/_main.sass */
 #content-title-container {
   border-bottom: 1px solid #617cbe;
   padding-top: 8px;
@@ -917,40 +922,40 @@ body {
   padding-bottom: 0.8em;
 }
 
-/* line 100, ../sass/_main.sass */
+/* line 103, ../sass/_main.sass */
 #content-title {
   color: #404361;
   font-size: 1.6em;
   font-weight: bold;
 }
 
-/* line 110, ../sass/_main.sass */
+/* line 113, ../sass/_main.sass */
 #sidebar {
   margin-bottom: 2em;
 }
 
-/* line 113, ../sass/_main.sass */
+/* line 116, ../sass/_main.sass */
 #sidebar-container img {
   border: #9f9f9f 1px solid;
 }
 
-/* line 116, ../sass/_main.sass */
+/* line 119, ../sass/_main.sass */
 #sponsors h2 {
   font-size: 1.5em;
   line-height: 2em;
   margin: 0;
 }
-/* line 120, ../sass/_main.sass */
+/* line 123, ../sass/_main.sass */
 #sponsors ul {
   margin: 0;
   padding: 15px 0 0 0;
 }
-/* line 123, ../sass/_main.sass */
+/* line 126, ../sass/_main.sass */
 #sponsors li {
   float: left;
 }
 
-/* line 131, ../sass/_main.sass */
+/* line 134, ../sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -958,7 +963,7 @@ body {
   line-height: 70px;
 }
 
-/* line 137, ../sass/_main.sass */
+/* line 140, ../sass/_main.sass */
 #copyright {
   font-size: 0.9em;
   text-align: right;
