@@ -802,7 +802,7 @@ a:active, a:hover, a:link, a:visited {
 
 /* line 14, ../sass/_main.sass */
 body {
-  font-family: "XinGothic", "Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gothic", "Helvetica Neue", Helvetica, "XinGothic", sans-serif;
   font-size: 12pt;
 }
 
