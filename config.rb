@@ -12,4 +12,4 @@ sass_dir = "2012/sass"
 images_dir = "2012/images"
 fonts_dir = "2012/fonts"
 
-#output_style = :compressed
+output_style = :compressed
