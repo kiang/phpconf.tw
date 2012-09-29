@@ -811,82 +811,87 @@ body {
   float: left;
 }
 
-/* line 27, ../sass/_main.sass */
+/* line 22, ../sass/_main.sass */
+#conference-mascot {
+  display: none;
+}
+
+/* line 30, ../sass/_main.sass */
 #header-navigation {
   margin-top: 1.8em;
   font-size: 0.9em;
   font-weight: bold;
 }
-/* line 34, ../sass/_main.sass */
+/* line 37, ../sass/_main.sass */
 #header-navigation a:active, #header-navigation a:hover, #header-navigation a:link, #header-navigation a:visited {
   color: black;
 }
-/* line 36, ../sass/_main.sass */
+/* line 39, ../sass/_main.sass */
 #header-navigation a:hover {
   text-decoration: underline;
 }
-/* line 39, ../sass/_main.sass */
+/* line 42, ../sass/_main.sass */
 #header-navigation .nav-active {
   color: #a40000;
 }
-/* line 41, ../sass/_main.sass */
+/* line 44, ../sass/_main.sass */
 #header-navigation .nav-active a:active, #header-navigation .nav-active a:hover, #header-navigation .nav-active a:link, #header-navigation .nav-active a:visited {
   color: #a40000;
 }
 
-/* line 44, ../sass/_main.sass */
+/* line 47, ../sass/_main.sass */
 #footer-navigation {
   font-weight: bold;
 }
-/* line 47, ../sass/_main.sass */
+/* line 50, ../sass/_main.sass */
 #footer-navigation a:active, #footer-navigation a:hover, #footer-navigation a:link, #footer-navigation a:visited {
   color: white;
 }
-/* line 49, ../sass/_main.sass */
+/* line 52, ../sass/_main.sass */
 #footer-navigation a:hover {
   text-decoration: underline;
 }
 
-/* line 52, ../sass/_main.sass */
+/* line 55, ../sass/_main.sass */
 #past-editions {
   display: none;
   float: left;
 }
 
-/* line 56, ../sass/_main.sass */
+/* line 59, ../sass/_main.sass */
 #past-editions-content {
   font-size: 0.9em;
   padding-right: 16px;
 }
-/* line 60, ../sass/_main.sass */
+/* line 63, ../sass/_main.sass */
 #past-editions-content a:active, #past-editions-content a:hover, #past-editions-content a:link, #past-editions-content a:visited {
   color: white;
 }
 
-/* line 63, ../sass/_main.sass */
+/* line 66, ../sass/_main.sass */
 #registration-link {
   background: #a20800;
   color: white;
   padding: 8px 0;
   margin: 0 auto 0.5em auto;
 }
-/* line 66, ../sass/_main.sass */
+/* line 69, ../sass/_main.sass */
 #registration-link a:active, #registration-link a:hover, #registration-link a:link, #registration-link a:visited {
   color: white;
 }
 
-/* line 70, ../sass/_main.sass */
+/* line 73, ../sass/_main.sass */
 .registration-date {
   font-size: 0.8em;
   line-height: 1.2em;
 }
 
-/* line 73, ../sass/_main.sass */
+/* line 76, ../sass/_main.sass */
 .registration-title, .registration-date {
   padding: 0 16px;
 }
 
-/* line 76, ../sass/_main.sass */
+/* line 79, ../sass/_main.sass */
 #registration-link-320 {
   background: #a20800;
   color: white;
@@ -894,17 +899,17 @@ body {
   margin-bottom: 1.5em;
   text-align: center;
 }
-/* line 79, ../sass/_main.sass */
+/* line 82, ../sass/_main.sass */
 #registration-link-320 a:active, #registration-link-320 a:hover, #registration-link-320 a:link, #registration-link-320 a:visited {
   color: white;
 }
 
-/* line 89, ../sass/_main.sass */
+/* line 92, ../sass/_main.sass */
 #content-container {
   padding: 0 1em;
 }
 
-/* line 92, ../sass/_main.sass */
+/* line 95, ../sass/_main.sass */
 #content-title-container {
   border-bottom: 1px solid #617cbe;
   padding-top: 8px;
@@ -912,40 +917,40 @@ body {
   padding-bottom: 0.8em;
 }
 
-/* line 97, ../sass/_main.sass */
+/* line 100, ../sass/_main.sass */
 #content-title {
   color: #404361;
   font-size: 1.6em;
   font-weight: bold;
 }
 
-/* line 107, ../sass/_main.sass */
+/* line 110, ../sass/_main.sass */
 #sidebar {
   margin-bottom: 2em;
 }
 
-/* line 110, ../sass/_main.sass */
+/* line 113, ../sass/_main.sass */
 #sidebar-container img {
   border: #9f9f9f 1px solid;
 }
 
-/* line 113, ../sass/_main.sass */
+/* line 116, ../sass/_main.sass */
 #sponsors h2 {
   font-size: 1.5em;
   line-height: 2em;
   margin: 0;
 }
-/* line 117, ../sass/_main.sass */
+/* line 120, ../sass/_main.sass */
 #sponsors ul {
   margin: 0;
   padding: 15px 0 0 0;
 }
-/* line 120, ../sass/_main.sass */
+/* line 123, ../sass/_main.sass */
 #sponsors li {
   float: left;
 }
 
-/* line 128, ../sass/_main.sass */
+/* line 131, ../sass/_main.sass */
 #footer {
   background: #70a3b7;
   color: white;
@@ -953,7 +958,7 @@ body {
   line-height: 70px;
 }
 
-/* line 134, ../sass/_main.sass */
+/* line 137, ../sass/_main.sass */
 #copyright {
   font-size: 0.9em;
   text-align: right;
@@ -2069,168 +2074,177 @@ body {
 }
 @media screen and (min-width: 960px) {
   /* line 444, ../sass/_responsive.sass */
-  #header-logo {
-    /* background: url("../images/layout/mascot.png") no-repeat 10px 100%; */
+  #conference-title-container {
+    float: right;
   }
 
-  /* line 447, ../sass/_responsive.sass */
+  /* line 446, ../sass/_responsive.sass */
+  #conference-mascot {
+    background: url("../images/layout/mascot.png") no-repeat 10px 100%;
+    display: block;
+    float: left;
+    height: 249px;
+    width: 230px;
+  }
+
+  /* line 453, ../sass/_responsive.sass */
   #header, #main, #footer-content {
     width: 960px;
   }
 
-  /* line 449, ../sass/_responsive.sass */
+  /* line 455, ../sass/_responsive.sass */
   #content, #footer-navigation, #header-logo-content {
     width: 720px;
   }
 
-  /* line 451, ../sass/_responsive.sass */
+  /* line 457, ../sass/_responsive.sass */
   #sidebar, #copyright {
     width: 240px;
   }
 
-  /* line 453, ../sass/_responsive.sass */
+  /* line 459, ../sass/_responsive.sass */
   #content, #conference-title, #footer-navigation {
     float: left;
   }
 
-  /* line 455, ../sass/_responsive.sass */
+  /* line 461, ../sass/_responsive.sass */
   #header-logo-content, #conference-date, #sidebar, #copyright {
     float: right;
   }
 
-  /* line 457, ../sass/_responsive.sass */
+  /* line 463, ../sass/_responsive.sass */
   #conference-title {
     width: 400px;
   }
 
-  /* line 459, ../sass/_responsive.sass */
+  /* line 465, ../sass/_responsive.sass */
   #conference-date {
     width: 320px;
     font-size: 1.3em;
     line-height: 2.28em;
   }
 
-  /* line 464, ../sass/_responsive.sass */
+  /* line 470, ../sass/_responsive.sass */
   #header-navigation ul {
     padding: 0;
   }
-  /* line 466, ../sass/_responsive.sass */
+  /* line 472, ../sass/_responsive.sass */
   #header-navigation li {
     padding-right: 48px;
   }
-  /* line 468, ../sass/_responsive.sass */
+  /* line 474, ../sass/_responsive.sass */
   #header-navigation .navigation-last {
     padding-right: 0;
   }
 
-  /* line 471, ../sass/_responsive.sass */
+  /* line 477, ../sass/_responsive.sass */
   #footer-navigation li {
     padding-right: 3em;
   }
 
-  /* line 473, ../sass/_responsive.sass */
+  /* line 479, ../sass/_responsive.sass */
   #sidebar-container, #registration-link {
     width: 92%;
   }
 
-  /* line 475, ../sass/_responsive.sass */
+  /* line 481, ../sass/_responsive.sass */
   #sidebar-container {
     font-size: 0.85em;
   }
 
-  /* line 479, ../sass/_responsive.sass */
+  /* line 485, ../sass/_responsive.sass */
   .news-index article {
     padding: 0 1.2em;
   }
 
-  /* line 482, ../sass/_responsive.sass */
+  /* line 488, ../sass/_responsive.sass */
   .schedule-time, .schedule-header-time {
     width: 110px;
   }
 
-  /* line 484, ../sass/_responsive.sass */
+  /* line 490, ../sass/_responsive.sass */
   .schedule-info, .schedule-header-info {
     padding: 0 16px;
     width: 505px;
   }
 
-  /* line 487, ../sass/_responsive.sass */
+  /* line 493, ../sass/_responsive.sass */
   .schedule-info-2track-left {
     width: 236px;
     padding-right: 16px;
   }
 
-  /* line 490, ../sass/_responsive.sass */
+  /* line 496, ../sass/_responsive.sass */
   .schedule-info-2track-right {
     width: 235px;
     padding-left: 16px;
   }
 
-  /* line 493, ../sass/_responsive.sass */
+  /* line 499, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-1 {
     height: 0;
   }
 
-  /* line 495, ../sass/_responsive.sass */
+  /* line 501, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-2 {
     height: 0;
   }
 
-  /* line 497, ../sass/_responsive.sass */
+  /* line 503, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-3 {
     height: 0;
   }
 
-  /* line 499, ../sass/_responsive.sass */
+  /* line 505, ../sass/_responsive.sass */
   #schedule-info-2track-right-fix-4 {
     height: 3em;
   }
 
-  /* line 502, ../sass/_responsive.sass */
+  /* line 508, ../sass/_responsive.sass */
   .schedule-header-info .schedule-info-2track-left, .schedule-header-info .schedule-info-2track-right {
     padding: 0 78px;
     width: 95px;
   }
 
-  /* line 506, ../sass/_responsive.sass */
+  /* line 512, ../sass/_responsive.sass */
   .schedule-event-short .schedule-info {
     padding: 0 16px;
     width: 505px;
   }
 
-  /* line 509, ../sass/_responsive.sass */
+  /* line 515, ../sass/_responsive.sass */
   .schedule-index {
     padding-left: 1.2em;
     padding-right: 1.2em;
   }
 
-  /* line 513, ../sass/_responsive.sass */
+  /* line 519, ../sass/_responsive.sass */
   .speaker-info {
     width: 160px;
   }
 
-  /* line 515, ../sass/_responsive.sass */
+  /* line 521, ../sass/_responsive.sass */
   .speaker-description {
     width: 520px;
   }
 
-  /* line 517, ../sass/_responsive.sass */
+  /* line 523, ../sass/_responsive.sass */
   .speaker-name, .speaker-job-title {
     float: left;
   }
 
-  /* line 519, ../sass/_responsive.sass */
+  /* line 525, ../sass/_responsive.sass */
   .speaker-job-title {
     line-height: 2.4em;
     padding-left: 1em;
   }
 
-  /* line 522, ../sass/_responsive.sass */
+  /* line 528, ../sass/_responsive.sass */
   .speaker-picture-container {
     width: 168px;
   }
 
-  /* line 525, ../sass/_responsive.sass */
+  /* line 531, ../sass/_responsive.sass */
   #map {
     width: 640px;
     height: 480px;
