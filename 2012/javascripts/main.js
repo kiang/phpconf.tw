@@ -24,4 +24,14 @@ $(function() {
 
         return false;
     });
+
+    var $socialIconLinks = $('.socialIcons a');
+    var $speakerJobTitleLinks = $('.speaker-job-title a');
+    $.each([$socialIconLinks, $speakerJobTitleLinks], function (i, $elements) {
+        if ($elements.length > 0) {
+            $elements.click(function () {
+                this.target = '_blank';
+            });
+        }
+    });
 });
