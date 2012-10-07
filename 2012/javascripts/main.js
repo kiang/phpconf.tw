@@ -27,7 +27,9 @@ $(function() {
 
     $.each([$('.socialIcons a'),
             $('.speaker-job-title a'),
-            $('#sponsors').find('a')], function (i, $elements) {
+            $('#sponsors').find('a'),
+            $('#registration-link').find('a'),
+            $('#registration-link-320').find('a')], function (i, $elements) {
         if ($elements.length > 0) {
             $elements.click(function () {
                 this.target = '_blank';
